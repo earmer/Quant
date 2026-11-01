@@ -37,7 +37,13 @@ def _close(ticker: str, start: str, end: str) -> pd.Series:
 
 
 def load(tickers: list[str], start: str, end: str) -> tuple[pd.DataFrame, pd.Series]:
-    px = pd.DataFrame({t: _close(t, start, end) for t in tickers}).dropna(how="all")
+    cols = {}
+    for t in tickers:
+        try:
+            cols[t] = _close(t, start, end)
+        except RuntimeError:
+            print(f"[skip] {t}: no data between {start} and {end}")
+    px = pd.DataFrame(cols).dropna(how="all")
     irx = _close("^IRX", start, end).reindex(px.index).ffill().bfill() / 100   # annualised yield
     rf = (1 + irx) ** (1 / 252) - 1
     return px, rf
@@ -244,6 +250,7 @@ def metrics(eq, ex, trades, rf) -> dict:
     exr = r - rf.reindex(r.index)
     yrs = (eq.index[-1] - eq.index[0]).days / 365.25
     return {
+        "total_%": (eq.iloc[-1] / eq.iloc[0] - 1) * 100,
         "cagr_%": ((eq.iloc[-1] / eq.iloc[0]) ** (1 / yrs) - 1) * 100,
         "vol_%": r.std() * np.sqrt(252) * 100,
         "sharpe": exr.mean() / exr.std() * np.sqrt(252) if exr.std() > 0 else np.nan,
@@ -251,6 +258,11 @@ def metrics(eq, ex, trades, rf) -> dict:
         "exposure_%": ex.mean() * 100,
         "trades": trades,
     }
+
+
+def n_segments(start: pd.Timestamp, end: pd.Timestamp) -> int:
+    """Number of 12-month segments in the window; a trailing part-year counts if > ~3 weeks."""
+    return max(1, int(np.ceil((end - start).days / 365.25 - 0.05)))
 
 
 def yearly(eq: pd.Series, start: pd.Timestamp, years: int) -> list[float]:
@@ -271,16 +283,20 @@ def sweep(full_px, rf_full, start, tickers):
         full = full_px[t].dropna(); idx = full.index[full.index >= start]
         px, rf = full.loc[idx], rf_full.loc[idx]
         bh = run_orders(px, pd.Series(np.nan, idx).fillna({idx[0]: 1.0}), rf)[0]
+        first = pd.Series(~idx.to_period("M").duplicated(), idx)
+        r50 = run_orders(px, pd.Series(np.where(first, 0.5, np.nan), idx), rf)[0]
         for s in (0.02, 0.03, 0.05, 0.08):
             for lv in (3, 5, 8):
                 eq, ex, n = grid_engine(px, rf, np.full(len(idx), s), lv, "breakout")
                 m = metrics(eq, ex, n, rf)
                 rows.append({"ticker": t, "spacing_%": int(s * 100), "levels": lv, **m,
-                             "beats_bh": eq.iloc[-1] > bh.iloc[-1]})
+                             "beats_bh": eq.iloc[-1] > bh.iloc[-1],
+                             "beats_rebal50": eq.iloc[-1] > r50.iloc[-1]})
     df = pd.DataFrame(rows)
     return df.groupby(["spacing_%", "levels"]).agg(
         cagr_med=("cagr_%", "median"), sharpe_med=("sharpe", "median"),
-        maxdd_med=("max_dd_%", "median"), trades_med=("trades", "median"), beats_bh=("beats_bh", "sum"))
+        maxdd_med=("max_dd_%", "median"), trades_med=("trades", "median"), beats_bh=("beats_bh", "sum"),
+        beats_rebal50=("beats_rebal50", "sum"))
 
 
 # ============================================================================ plots
@@ -322,14 +338,24 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--tickers", nargs="+", default=DEFAULT_TICKERS)
     ap.add_argument("--end", default=None, help="exclusive end date (default: today)")
-    ap.add_argument("--years", type=int, default=3)
+    ap.add_argument("--years", type=int, default=3, help="window length when --start is not given")
+    ap.add_argument("--start", default=None, help="window start date (overrides --years)")
+    ap.add_argument("--out", default=str(OUT), help="output directory")
     args = ap.parse_args()
+    out = Path(args.out)
 
     end = pd.Timestamp(args.end) if args.end else pd.Timestamp.today().normalize()
-    start = end - pd.DateOffset(years=args.years)
+    start = pd.Timestamp(args.start) if args.start else end - pd.DateOffset(years=args.years)
     full_px, rf_full = load(args.tickers, (start - pd.Timedelta(days=WARMUP_DAYS)).strftime("%Y-%m-%d"),
                             end.strftime("%Y-%m-%d"))
+    # keep only tickers with ~a year of history before the window (SMA(200), 52-week highs)
+    keep = [t for t in args.tickers if t in full_px and full_px[t].loc[:start].count() >= 250]
+    for t in set(args.tickers) - set(keep):
+        print(f"[skip] {t}: not enough history before {start.date()}")
+    args.tickers = keep
+    full_px = full_px[keep]
     idx = full_px.index[full_px.index >= start]
+    args.years = n_segments(start, idx[-1])
     print(f"Window {idx[0].date()} → {idx[-1].date()} ({len(idx)} sessions); "
           f"mean T-bill yield {((1 + rf_full.loc[idx]).prod() ** (252 / len(idx)) - 1) * 100:.2f} %")
 
@@ -343,9 +369,9 @@ def main() -> None:
                          **{f"y{k + 1}_%": v for k, v in enumerate(yearly(eq, start, args.years))}})
     res = pd.DataFrame(rows)
 
-    OUT.mkdir(exist_ok=True)
-    res.to_csv(OUT / "metrics.csv", index=False, float_format="%.4f")
-    pd.DataFrame(curves).to_csv(OUT / "equity_curves.csv", float_format="%.2f")
+    out.mkdir(parents=True, exist_ok=True)
+    res.to_csv(out / "metrics.csv", index=False, float_format="%.4f")
+    pd.DataFrame(curves).to_csv(out / "equity_curves.csv", float_format="%.2f")
 
     pd.set_option("display.width", 250); pd.set_option("display.max_columns", 30); pd.set_option("display.max_rows", 100)
     piv = lambda col: res.pivot(index="strategy", columns="ticker", values=col).loc[ORDER, args.tickers]
@@ -354,27 +380,27 @@ def main() -> None:
     print("\nSharpe (excess of T-bills) by ticker\n", piv("sharpe").round(2))
 
     ycols = [f"y{k + 1}_%" for k in range(args.years)]
-    summ = res.groupby("strategy")[["cagr_%", "vol_%", "sharpe", "max_dd_%", "exposure_%", "trades", *ycols]].median().loc[ORDER]
+    summ = res.groupby("strategy")[["total_%", "cagr_%", "vol_%", "sharpe", "max_dd_%", "exposure_%", "trades", *ycols]].median().loc[ORDER]
     summ["beats_bh_cagr"] = (cagr.sub(cagr.loc["buy_hold"], axis=1) > 0).sum(axis=1)
     sh = piv("sharpe")
     summ["beats_bh_sharpe"] = (sh.sub(sh.loc["buy_hold"], axis=1) > 0).sum(axis=1)
     summ["beats_rebal50"] = (cagr.sub(cagr.loc["rebal_50_m"], axis=1) > 0).sum(axis=1)
-    summ.to_csv(OUT / "summary.csv", float_format="%.4f")
+    summ.to_csv(out / "summary.csv", float_format="%.4f")
     print(f"\nMedian across {len(args.tickers)} tickers; y1..y{args.years} = calendar-year-of-window returns;"
           " beats_* = number of tickers beating that benchmark\n", summ.round(2))
 
     sw = sweep(full_px, rf_full, start, args.tickers)
-    sw.to_csv(OUT / "grid_sweep.csv", float_format="%.4f")
+    sw.to_csv(out / "grid_sweep.csv", float_format="%.4f")
     print("\nRe-centring grid sensitivity (median across tickers)\n", sw.round(2))
 
     try:
         plot_panels(curves, args.tickers, ["buy_hold", "rebal_50_m", *GROUPS["grid"]],
                     f"Grid variants — growth of 1, log scale, {idx[0].date()} to {idx[-1].date()}",
-                    OUT / "grid_curves.png")
+                    out / "grid_curves.png")
         plot_panels(curves, args.tickers,
                     ["buy_hold", "sma_50_200", "tsmom_6m", "trend_voltarget", "rsi2_trend", "boll_mr", "dca_dip"],
                     f"Trend, mean-reversion and DCA variants — growth of 1, log scale, {idx[0].date()} to {idx[-1].date()}",
-                    OUT / "other_curves.png")
+                    out / "other_curves.png")
     except ImportError:
         pass
 

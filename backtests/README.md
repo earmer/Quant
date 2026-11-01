@@ -38,3 +38,15 @@ The run writes `metrics.csv` (per ticker, including yearly returns), `summary.cs
 ```bash
 python backtests/advanced_strategies.py --end 2026-10-31
 ```
+
+## Bear-market windows
+
+The rules and parameters are unchanged; only the window moves. `--start` sets the first day and `--out` the output directory. TSLA is skipped for the GFC windows because it listed in 2010.
+
+| Window | Command | Output |
+|---|---|---|
+| 2022 rate-shock bear | `--start 2022-01-03 --end 2022-12-31` | `results_bear_2022/` |
+| GFC, peak to trough | `--start 2007-10-09 --end 2009-03-10` | `results_gfc_trough/` |
+| GFC, peak plus recovery | `--start 2007-10-09 --end 2010-10-09` | `results_gfc_recovery/` |
+
+A window that ends at the trough flatters anything that sits in cash. The recovery window is there to check whether a strategy gets back in.
