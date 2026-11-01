@@ -1,0 +1,5 @@
+universe,core_vs_mix50,core_vs_matched,grid_vs_matched,tvt_vs_matched,core_cagr_vs_matched,grid_cagr_vs_matched,tvt_cagr_vs_matched,tvt_dd_vs_matched,core_total_vs_matched,grid_total_vs_matched,tvt_total_vs_matched
+assets,0.018,0.015,0.026,-0.123,0.209,0.377,-1.711,-1.969,0.673,1.217,-5.381
+original,0.023,0.022,0.024,-0.13,0.753,1.448,-2.028,0.112,2.683,4.66,-6.855
+random,0.025,0.022,0.016,-0.192,0.849,1.577,-3.172,-1.746,2.932,5.429,-10.852
+traditional,0.019,0.015,0.009,-0.262,0.536,1.091,-3.482,-2.339,1.922,3.635,-11.757

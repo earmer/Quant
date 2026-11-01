@@ -95,3 +95,27 @@ The models are trained walk-forward, pooled across all 37 tickers. Every window 
 python backtests/ml_risk.py              # development windows → results_ml_risk/dev/
 python backtests/ml_risk.py --holdout    # adds the new holdout → results_ml_risk/holdout/
 ```
+
+## Specification lab
+
+`spec_lab.py` asks which modelling choices move the headline results. It changes one assumption at a time from the baseline (close fills, 5 bp, T-bill cash, adjusted prices, a 3 % / 5-level breakout grid, monthly rebalancing on the first session):
+
+- **Fills:** resting intraday limit orders, or next-day open.
+- **Costs:** 0 / 20 / 50 bp.
+- **Cash and prices:** cash earning nothing; price-only (no dividends).
+- **Timing:** rebalancing on the 6th, 11th or 16th session of the month; trend signals acted on with a lag of 0, 2 or 5 days.
+- **Grid:** started years before the window; trail-up or static modes; 15 spacing × level combinations.
+- **Core blend:** 25 / 75 % grid weights.
+
+It runs everything on 2,000 ticker-windows: 47 tickers (the 37 stocks plus ten non-equity ETFs and bitcoin) × rolling 3-year windows starting every six months from 2001 to 2023.
+
+Two further checks:
+
+- **Exposure-matched benchmark.** Each rule is compared with a monthly constant mix at that rule's own average exposure in the window.
+- **Null tests.** The same window's returns are re-ordered four ways: iid bootstrap, 21-day block bootstrap, sign permutation (which keeps volatility clustering) and time reversal.
+
+`results_spec_lab/REPORT.md` gives the median total return, CAGR, Sharpe and drawdown for every spec, and the edges.
+
+```bash
+python backtests/spec_lab.py             # ~3 min; prices cached in backtests/.cache/
+```
