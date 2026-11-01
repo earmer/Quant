@@ -100,6 +100,8 @@ def rsi_mr(px: pd.Series, full: pd.Series, lo=30, hi=70):
 
 
 def grid(px: pd.Series, _full: pd.Series, spacing=0.03, levels=GRID_LEVELS):
+    """Static geometric grid with hysteresis: from level L, buy one unit per level at or
+    below p0(1+s)^(L-1) and sell one unit per level at or above p0(1+s)^(L+1)."""
     p0 = px.iloc[0]
     unit = (CAPITAL / 2) / p0 / levels          # shares traded per level
     c = COST_BPS / 1e4
@@ -108,18 +110,18 @@ def grid(px: pd.Series, _full: pd.Series, spacing=0.03, levels=GRID_LEVELS):
     level, trades = 0, 0
     eq, ex = np.empty(len(px)), np.empty(len(px))
     for i, p in enumerate(px.values):
-        k = int(np.clip(np.floor(np.log(p / p0) / np.log(1 + spacing)), -levels, levels))
-        if i > 0 and k != level:
-            if k < level:   # fell through levels: buy
-                n = level - k
-                qty = min(unit * n, cash / (p * (1 + c)))
-                cash -= qty * p * (1 + c); sh += qty
-            else:           # rose through levels: sell
-                n = k - level
-                qty = min(unit * n, sh)
-                cash += qty * p * (1 - c); sh -= qty
-            trades += n
-            level = k
+        x = np.log(p / p0) / np.log(1 + spacing)
+        down, up = max(int(np.ceil(x)), -levels), min(int(np.floor(x)), levels)
+        if down < level:    # fell through levels: buy
+            n = level - down
+            qty = min(unit * n, cash / (p * (1 + c)))
+            cash -= qty * p * (1 + c); sh += qty
+            trades += n; level = down
+        elif up > level:    # rose through levels: sell
+            n = up - level
+            qty = min(unit * n, sh)
+            cash += qty * p * (1 - c); sh -= qty
+            trades += n; level = up
         eq[i] = cash + sh * p
         ex[i] = sh * p / eq[i]
     return pd.Series(eq, px.index), pd.Series(ex, px.index), trades
