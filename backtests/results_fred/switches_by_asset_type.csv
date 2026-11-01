@@ -1,0 +1,14 @@
+base,rule,stocks,non_equity
+bh,combo,-0.048,-0.018
+bh,credit,0.004,0.021
+bh,curve,0.0,0.0
+bh,sma200,-0.055,-0.049
+bh,vix,-0.025,-0.02
+core,combo,-0.049,-0.025
+core,credit,-0.002,0.022
+core,curve,0.0,0.0
+core,sma200,-0.058,-0.047
+core,vix,-0.025,-0.015
+core,vol_har,-0.033,-0.018
+core,vol_har_macro,-0.043,-0.019
+core,vol_naive,-0.032,-0.015

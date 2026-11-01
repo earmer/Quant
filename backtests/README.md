@@ -119,3 +119,17 @@ Two further checks:
 ```bash
 python backtests/spec_lab.py             # ~3 min; prices cached in backtests/.cache/
 ```
+
+## Macro context from FRED
+
+`fred_lab.py` adds four daily FRED series: the 3-month T-bill (DTB3), the 10y–3m curve (T10Y3M), the Baa–10y credit spread (BAA10Y) and VIX (VIXCLS). These are market-based and essentially never revised, and each value is used only from the next business day. The NBER recession flag (USREC) is used only to describe results, because it is dated with hindsight.
+
+There are three tests:
+
+- **Regimes.** Strategy returns in each macro state.
+- **Switches.** Risk-off rules fixed in advance: curve inverted, credit spread above its 1-year average, VIX > 25, or two of the three. Each is applied to the core blend and to buy & hold, and compared with the same average exposure held constantly.
+- **Volatility forecasts.** Walk-forward forecasts with and without the macro series. These are scored on 2013, 2014, 2017 and 2021, which were never used as a holdout, and then used to size the core blend.
+
+```bash
+python backtests/fred_lab.py             # ~30 s after spec_lab.py has cached prices → results_fred/
+```

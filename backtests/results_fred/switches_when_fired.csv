@@ -1,0 +1,9 @@
+base,rule,total_vs_matched,sharpe_vs_matched,maxdd_vs_matched,n,pct_pos_sharpe_vs_matched
+bh,combo,-4.467,-0.055,-0.295,1622,30.826
+bh,credit,0.787,0.007,1.382,1798,52.002
+bh,curve,-1.499,-0.018,-1.698,1023,44.477
+bh,vix,-3.736,-0.042,-0.165,1537,32.921
+core,combo,-3.497,-0.057,-0.249,1622,29.593
+core,credit,0.267,0.004,1.247,1798,50.89
+core,curve,-1.05,-0.021,-1.399,1023,43.891
+core,vix,-2.799,-0.043,-0.157,1537,33.116
