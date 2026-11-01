@@ -72,3 +72,26 @@ A window that ends at the trough flatters anything that sits in cash. The recove
 python backtests/ml_meta.py              # development windows → results_ml/dev/
 python backtests/ml_meta.py --holdout    # adds the holdout windows → results_ml/holdout/
 ```
+
+## New universes
+
+`universes.py` draws two new test universes with a fixed seed. It uses a dated snapshot of the current S&P 500 constituents, so both universes carry survivorship bias.
+
+- **Traditional:** 12 names drawn from members added in 1980 or earlier, in staples, utilities, industrials, energy, health care, financials and materials.
+- **Random:** 15 names drawn from the remaining members.
+
+Every earlier script was re-run on both universes with its rules unchanged. The results are in `results_universes/<universe>/`.
+
+## Risk switch and volatility sizing for the core blend
+
+`ml_risk.py` overlays the core blend (50 % `buy_hold` + 50 % `grid_recentre` sleeves) with two kinds of scaling:
+
+- **A risk-on/off switch.** The blend is held at full size or at half size, with the rest in T-bills. There are two classifiers, logistic regression and gradient boosting. Each is judged against a simple switch that holds full size only above SMA(200).
+- **Volatility sizing.** The blend is scaled towards 15 % volatility and never above full size. There are two forecasts: a HAR regression and gradient boosting. Each is judged against simple sizing from trailing 21-day volatility.
+
+The models are trained walk-forward, pooled across all 37 tickers. Every window used before now counts as development data. The new holdout is Jul 2011 – Jun 2012 and 2018–19. It was run once, after the code was frozen in commit `de81b7d`.
+
+```bash
+python backtests/ml_risk.py              # development windows → results_ml_risk/dev/
+python backtests/ml_risk.py --holdout    # adds the new holdout → results_ml_risk/holdout/
+```
