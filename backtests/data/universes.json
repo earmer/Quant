@@ -1,0 +1,34 @@
+{
+  "seed": 20261101,
+  "traditional": [
+    "DE",
+    "DUK",
+    "EIX",
+    "ETR",
+    "FDX",
+    "GD",
+    "IP",
+    "JNJ",
+    "MO",
+    "PCAR",
+    "SHW",
+    "SLB"
+  ],
+  "random": [
+    "APA",
+    "BA",
+    "BF-B",
+    "BG",
+    "CMI",
+    "HON",
+    "IDXX",
+    "JKHY",
+    "LOW",
+    "MPWR",
+    "ODFL",
+    "PSA",
+    "TROW",
+    "ULTA",
+    "WDC"
+  ]
+}

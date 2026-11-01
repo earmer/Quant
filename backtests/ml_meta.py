@@ -197,17 +197,23 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--tickers", nargs="+", default=A.DEFAULT_TICKERS)
     ap.add_argument("--holdout", action="store_true", help="also report the holdout windows")
+    ap.add_argument("--out", default=str(OUT), help="output root; dev/ or holdout/ is appended")
     args = ap.parse_args()
-    out = OUT / ("holdout" if args.holdout else "dev")
+    out = Path(args.out) / ("holdout" if args.holdout else "dev")
     out.mkdir(parents=True, exist_ok=True)
 
-    px, rf = A.load(args.tickers, DATA_START, DATA_END)
+    # SPY is always loaded for the market features, but only tested if requested
+    px, rf = A.load(list(dict.fromkeys([*args.tickers, "SPY"])), DATA_START, DATA_END)
     irx = ((1 + rf) ** 252 - 1)
     spy = px["SPY"].dropna()
+    px = px[[t for t in args.tickers if t in px.columns]]
 
     data, rows = {}, []
     for t in px.columns:
         full = px[t].dropna()
+        if len(full) < 300:
+            print(f"[skip] {t}: only {len(full)} sessions of history")
+            continue
         ret, ex = sleeves_for(full, rf)
         sched = schedule(ret.index)
         f = features(full, spy, irx, ret)

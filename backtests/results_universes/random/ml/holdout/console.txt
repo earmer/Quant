@@ -1,0 +1,152 @@
+APA: sleeves 2000-01-13 → 2026-10-30, 321 monthly decisions
+BA: sleeves 2000-01-13 → 2026-10-30, 321 monthly decisions
+BF-B: sleeves 2000-01-13 → 2026-10-30, 321 monthly decisions
+BG: sleeves 2002-08-20 → 2026-10-30, 290 monthly decisions
+CMI: sleeves 2000-01-13 → 2026-10-30, 321 monthly decisions
+HON: sleeves 2000-01-13 → 2026-10-30, 321 monthly decisions
+IDXX: sleeves 2000-01-13 → 2026-10-30, 321 monthly decisions
+JKHY: sleeves 2000-01-13 → 2026-10-30, 321 monthly decisions
+LOW: sleeves 2000-01-13 → 2026-10-30, 321 monthly decisions
+MPWR: sleeves 2005-12-01 → 2026-10-30, 250 monthly decisions
+ODFL: sleeves 2000-01-13 → 2026-10-30, 321 monthly decisions
+PSA: sleeves 2000-01-13 → 2026-10-30, 321 monthly decisions
+TROW: sleeves 2000-01-13 → 2026-10-30, 321 monthly decisions
+ULTA: sleeves 2008-11-05 → 2026-10-30, 215 monthly decisions
+WDC: sleeves 2000-01-13 → 2026-10-30, 321 monthly decisions
+Rank IC of predicted vs realised relative sleeve returns — development windows
+           mean_rank_ic  t_stat       n
+ml_hgb           0.013   0.820  1261.0
+ml_ridge         0.034   2.115  1261.0
+Rank IC — holdout windows
+           mean_rank_ic  t_stat      n
+ml_hgb           0.022   0.793  570.0
+ml_ridge         0.015   0.576  570.0
+Rank IC — all walk-forward months 2007–2026
+           mean_rank_ic  t_stat       n
+ml_hgb           0.062   6.062  3518.0
+ml_ridge         0.070   7.018  3518.0
+=== gfc_recovery  2007-10-09 → 2010-10-08  (14 tickers; medians)
+                      total_%  cagr_%  sharpe  max_dd_%  beats_rebal50  beats_eqw  sharpe_beats_eqw
+strategy                                                                                          
+buy_hold                3.16    1.01    0.23    -63.26              3          2                 5
+rebal_50_m              8.84    2.87    0.22    -37.31              0          5                 5
+grid_periodic          19.44    6.11    0.34    -37.55              9          8                 8
+grid_recentre          24.33    7.53    0.45    -36.62              9         10                 9
+grid_trail_up          20.19    6.32    0.33    -46.95             10          8                 9
+trend_voltarget         8.44    2.74    0.22    -15.10              8          8                 6
+voltarget_15           11.37    3.66    0.25    -22.63              7          5                 5
+tsmom_6m               -6.56   -2.26    0.02    -43.18              4          3                 4
+rsi2_trend             12.69    4.06    0.33    -15.25              8          7                 7
+boll_mr               -14.26   -5.00   -0.06    -44.68              2          2                 3
+eq_weight_all          12.75    4.08    0.28    -29.74              9          0                 0
+ens_grid_trend         18.64    5.87    0.41    -22.49             10         10                11
+ens_grid_trend_rsi2    14.97    4.76    0.40    -17.86             11         11                10
+ens_core_grid          17.02    5.38    0.31    -48.02              8          8                 9
+ens_vt_grid            20.62    6.45    0.38    -27.62              9          9                 8
+ml_hgb                 12.99    4.15    0.28    -53.33              8          6                 6
+ml_ridge                6.27    2.05    0.20    -48.74              6          4                 5
+Average ML allocation in this window (across tickers)
+           buy_hold  rebal_50_m  grid_periodic  grid_recentre  grid_trail_up  trend_voltarget  voltarget_15  tsmom_6m  rsi2_trend  boll_mr  cash
+model                                                                                                                                          
+ml_hgb        0.33        0.01           0.05           0.02           0.14             0.06          0.03      0.24        0.04     0.02  0.05
+ml_ridge      0.28        0.00           0.03           0.05           0.14             0.12          0.05      0.28        0.03     0.01  0.01
+=== bear_2022  2022-01-03 → 2022-12-30  (15 tickers; medians)
+                      total_%  cagr_%  sharpe  max_dd_%  beats_rebal50  beats_eqw  sharpe_beats_eqw
+strategy                                                                                          
+buy_hold               -8.36   -8.45   -0.25    -34.48              6          6                10
+rebal_50_m             -2.15   -2.18   -0.26    -18.08              0          3                 7
+grid_periodic           4.10    4.15    0.21    -15.43             12         12                13
+grid_recentre          -1.50   -1.52   -0.14    -21.20             10         10                10
+grid_trail_up          -4.25   -4.30   -0.07    -24.09              7          7                10
+trend_voltarget        -8.35   -8.45   -1.55    -13.84              5          6                 2
+voltarget_15           -5.31   -5.37   -0.36    -17.34              7          5                 7
+tsmom_6m               -8.68   -8.78   -0.60    -21.86              4          4                 2
+rsi2_trend             -4.24   -4.29   -0.77    -15.02              6          6                 2
+boll_mr                 3.00    3.04    0.14    -15.23             11         10                12
+eq_weight_all          -1.82   -1.84   -0.26    -16.61             12          0                 0
+ens_grid_trend         -2.73   -2.76   -0.26    -13.69             11         11                11
+ens_grid_trend_rsi2    -3.25   -3.29   -0.55    -11.24              9          9                 7
+ens_core_grid          -5.56   -5.63   -0.07    -27.41              7          6                12
+ens_vt_grid            -1.52   -1.54   -0.16    -17.19             12         10                11
+ml_hgb                -10.93  -11.06   -0.40    -25.87              4          4                 6
+ml_ridge               -6.49   -6.56   -0.19    -27.47              7          6                12
+Average ML allocation in this window (across tickers)
+           buy_hold  rebal_50_m  grid_periodic  grid_recentre  grid_trail_up  trend_voltarget  voltarget_15  tsmom_6m  rsi2_trend  boll_mr  cash
+model                                                                                                                                          
+ml_hgb        0.29        0.01           0.09           0.03           0.14             0.07          0.07      0.12        0.03     0.04  0.11
+ml_ridge      0.35        0.00           0.06           0.03           0.24             0.07          0.09      0.10        0.02     0.01  0.02
+=== bull_2023_26  2023-10-31 → 2026-10-30  (15 tickers; medians)
+                      total_%  cagr_%  sharpe  max_dd_%  beats_rebal50  beats_eqw  sharpe_beats_eqw
+strategy                                                                                          
+buy_hold               32.87    9.94    0.33    -38.82             10         11                 9
+rebal_50_m             25.03    7.74    0.32    -20.22              0          8                 8
+grid_periodic          29.59    9.03    0.35    -24.31              8          9                 9
+grid_recentre          30.55    9.30    0.38    -23.02              8         10                 9
+grid_trail_up          35.00   10.53    0.37    -29.75             11         11                 8
+trend_voltarget         0.55    0.18   -0.26    -17.01              3          3                 3
+voltarget_15           16.00    5.07    0.13    -23.69              3          6                 8
+tsmom_6m               11.20    3.60    0.05    -28.65              7          6                 3
+rsi2_trend             15.97    5.07    0.15    -13.20              5          4                 5
+boll_mr                28.34    8.68    0.41    -22.19              8          8                 9
+eq_weight_all          19.75    6.20    0.22    -18.58              7          0                 0
+ens_grid_trend         15.72    4.99    0.12    -17.51              3          4                 4
+ens_grid_trend_rsi2    15.26    4.85    0.10    -12.83              3          4                 7
+ens_core_grid          30.23    9.21    0.35    -31.92             10         11                10
+ens_vt_grid            23.92    7.42    0.27    -22.58              6          9                10
+ml_hgb                 29.87    9.11    0.32    -29.44              6          5                 5
+ml_ridge               23.87    7.40    0.27    -31.23              5          8                 7
+Average ML allocation in this window (across tickers)
+           buy_hold  rebal_50_m  grid_periodic  grid_recentre  grid_trail_up  trend_voltarget  voltarget_15  tsmom_6m  rsi2_trend  boll_mr  cash
+model                                                                                                                                          
+ml_hgb        0.24        0.02           0.05           0.04           0.14             0.04          0.08      0.10        0.11     0.06  0.12
+ml_ridge      0.25        0.00           0.04           0.03           0.20             0.06          0.12      0.11        0.07     0.07  0.04
+=== sideways_2015_16  2015-01-02 → 2016-12-30  (15 tickers; medians)
+                      total_%  cagr_%  sharpe  max_dd_%  beats_rebal50  beats_eqw  sharpe_beats_eqw
+strategy                                                                                          
+buy_hold               10.68    5.22    0.32    -25.75             10         10                 9
+rebal_50_m              7.44    3.66    0.33    -13.55              0          8                 8
+grid_periodic          10.44    5.11    0.37    -13.72              8          8                 7
+grid_recentre          15.31    7.41    0.77    -12.96             10         11                13
+grid_trail_up          12.59    6.13    0.57    -14.27             11         10                10
+trend_voltarget        -4.00   -2.03   -0.11    -16.30              5          5                 2
+voltarget_15            1.81    0.90    0.13    -21.98              6          7                 2
+tsmom_6m                7.98    3.93    0.30    -19.86              7          8                 4
+rsi2_trend             -0.58   -0.29   -0.02     -9.29              3          3                 4
+boll_mr                17.20    8.29    0.65    -10.37              9          9                 8
+eq_weight_all          10.64    5.20    0.38    -12.11              7          0                 0
+ens_grid_trend          4.38    2.17    0.24    -13.23              4          3                 4
+ens_grid_trend_rsi2     3.15    1.57    0.20    -11.45              3          1                 2
+ens_core_grid          13.31    6.47    0.40    -16.86             12         12                12
+ens_vt_grid             4.65    2.30    0.23    -17.55              7          8                 5
+ml_hgb                 10.89    5.32    0.38    -25.53              7          7                 2
+ml_ridge               10.27    5.03    0.32    -23.06             11         11                 7
+Average ML allocation in this window (across tickers)
+           buy_hold  rebal_50_m  grid_periodic  grid_recentre  grid_trail_up  trend_voltarget  voltarget_15  tsmom_6m  rsi2_trend  boll_mr  cash
+model                                                                                                                                          
+ml_hgb        0.40         0.0           0.02           0.02           0.06             0.04          0.18      0.21        0.03     0.01  0.04
+ml_ridge      0.41         0.0           0.05           0.01           0.17             0.07          0.13      0.15        0.01     0.00  0.00
+=== covid_2020  2020-01-02 → 2020-12-31  (15 tickers; medians)
+                      total_%  cagr_%  sharpe  max_dd_%  beats_rebal50  beats_eqw  sharpe_beats_eqw
+strategy                                                                                          
+buy_hold               19.63   19.70    0.63    -42.24             11         12                12
+rebal_50_m             13.00   13.05    0.61    -22.15              0         12                10
+grid_periodic          12.22   12.26    0.57    -33.64              8         10                 7
+grid_recentre          10.00   10.04    0.57    -25.22              8          9                10
+grid_trail_up          18.36   18.43    0.70    -31.29             10         12                10
+trend_voltarget         6.12    6.15    0.53    -11.51              2          6                 6
+voltarget_15            8.08    8.11    0.48    -19.49              3          5                 7
+tsmom_6m                1.33    1.33    0.18    -29.36              6          6                 4
+rsi2_trend              1.35    1.36    0.38     -7.12              3          7                 7
+boll_mr                -4.99   -5.01   -0.03    -35.65              3          2                 1
+eq_weight_all          10.07   10.11    0.53    -22.26              3          0                 0
+ens_grid_trend         10.29   10.33    0.61    -20.19              5         10                10
+ens_grid_trend_rsi2     9.32    9.35    0.75    -14.65              4          7                11
+ens_core_grid          14.97   15.03    0.63    -34.28             11         13                11
+ens_vt_grid            12.56   12.61    0.60    -26.27              5          9                 9
+ml_hgb                 18.60   18.67    0.84    -22.22             11         12                13
+ml_ridge               11.55   11.59    0.52    -31.42              4          6                 7
+Average ML allocation in this window (across tickers)
+           buy_hold  rebal_50_m  grid_periodic  grid_recentre  grid_trail_up  trend_voltarget  voltarget_15  tsmom_6m  rsi2_trend  boll_mr  cash
+model                                                                                                                                          
+ml_hgb        0.29         0.0           0.08           0.03           0.11             0.09          0.04      0.18        0.07     0.06  0.05
+ml_ridge      0.18         0.0           0.02           0.06           0.10             0.13          0.09      0.27        0.05     0.09  0.01
