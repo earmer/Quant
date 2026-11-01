@@ -50,3 +50,25 @@ The rules and parameters are unchanged; only the window moves. `--start` sets th
 | GFC, peak plus recovery | `--start 2007-10-09 --end 2010-10-09` | `results_gfc_recovery/` |
 
 A window that ends at the trough flatters anything that sits in cash. The recovery window is there to check whether a strategy gets back in.
+
+## Near-advanced blends and an ML allocator
+
+`ml_meta.py` runs every base strategy continuously from 2000 on each ticker as a "sleeve" (TSLA from 2011) and builds portfolios by allocating across those sleeves and T-bills. Moving capital between sleeves of the same stock is netted, so only the change in total share exposure pays costs. Because the grids now run from 2000 rather than starting fresh at each window, their figures differ slightly from the earlier tables.
+
+- **Near-advanced blends** use fixed weights chosen before any results were seen. Each pairs rules suited to opposite regimes, and each is rebalanced monthly:
+  - `ens_grid_trend`: half `grid_periodic`, half `trend_voltarget`.
+  - `ens_grid_trend_rsi2`: equal thirds of `grid_periodic`, `trend_voltarget` and `rsi2_trend`.
+  - `ens_core_grid`: half `buy_hold`, half `grid_recentre`.
+  - `ens_vt_grid`: half `voltarget_15`, half `grid_periodic`.
+- **ML allocators**:
+  - Two models: gradient boosting (`ml_hgb`) and ridge regression (`ml_ridge`), with hyperparameters fixed in code.
+  - Each month they predict every sleeve's next-month return relative to the average of all sleeves.
+  - The portfolio holds the top two sleeves at 50 % each.
+  - The models are retrained every year on past samples only, and never on samples that overlap the holdout.
+- **Development windows**: GFC + recovery, 2022 and 2023–26. All three were seen in earlier tests.
+- **Holdout windows**: 2015–16 (sideways) and 2020 (COVID). These were looked at once, after the code was frozen in commit `70df83a`.
+
+```bash
+python backtests/ml_meta.py              # development windows → results_ml/dev/
+python backtests/ml_meta.py --holdout    # adds the holdout windows → results_ml/holdout/
+```
