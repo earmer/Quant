@@ -1,0 +1,17 @@
+spec,grid_static_dsharpe,grid_recentre_dsharpe,grid_trail_up_dsharpe,grid_wide_dsharpe,core_dsharpe,tvt_dsharpe
+baseline,4,3,3,4,4,2
+cost_1,4,3,3,4,4,2
+cost_8,4,3,3,4,3,1
+cost_20,4,2,3,4,3,1
+fill_next_open,4,3,3,4,3,2
+recentre_s1_l5,4,2,3,4,3,2
+recentre_s1_l10,4,3,3,4,2,2
+recentre_s2_l5,4,2,3,4,2,2
+recentre_s2_l10,4,2,3,4,3,2
+recentre_s5_l5,4,3,3,4,3,2
+recentre_s5_l10,4,4,3,4,4,2
+recentre_s8_l5,4,4,3,4,4,2
+recentre_s8_l10,4,4,3,4,4,2
+recentre_s3_l10,4,3,3,4,3,2
+null_iid,4,2,4,3,3,0
+null_block21,4,3,4,4,4,1

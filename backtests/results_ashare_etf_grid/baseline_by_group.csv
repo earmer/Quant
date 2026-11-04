@@ -1,0 +1,5 @@
+group,bh_cagr,mix50_cagr,grid_static_cagr,grid_recentre_cagr,grid_trail_up_cagr,grid_wide_cagr,core_cagr,tvt_cagr,grid_static_dsharpe,grid_recentre_dsharpe,grid_trail_up_dsharpe,grid_wide_dsharpe,core_dsharpe,tvt_dsharpe
+broad,5.069,5.017,6.82,4.144,4.978,5.988,4.675,3.774,0.218,0.019,0.093,0.112,0.01,-0.072
+defensive,3.577,3.468,3.526,3.399,3.399,3.52,3.679,3.879,0.044,0.045,0.045,0.027,0.021,-0.024
+foreign,9.7,7.151,7.203,6.888,8.587,7.457,8.713,8.742,0.194,-0.069,0.069,0.102,-0.015,-0.02
+sector,-7.557,-1.213,4.995,-1.317,-3.479,1.321,-5.475,0.891,0.198,-0.043,0.112,0.154,-0.019,-0.008

@@ -188,3 +188,25 @@ Training was frozen in commit `d6e67bf` before validation.
 python backtests/discover_ashare.py --phase train
 python backtests/discover_ashare.py --phase validate
 ```
+
+## Grid strategies on A-share ETFs
+
+`ashare_etf_grid.py` runs the grid family (static, re-centring, trail-up, wide), the core blend and the trend/volatility-target reference on 17 onshore ETFs:
+
+- **Indices:** SSE 50, CSI 300/500/1000, ChiNext, STAR 50.
+- **Sectors:** brokers, semiconductors, healthcare, liquor.
+- **Defensive:** gold, 5-year and 10-year government bonds.
+- **Foreign:** Nasdaq 100, S&P 500, Hang Seng, H-shares.
+
+Data and trading rules:
+
+- Fund share splits (missing from Yahoo) are repaired.
+- Price limits and suspensions block trades, which wait until the next tradeable day.
+- Costs are 3 bp one-way, with 1, 8 and 20 bp also tested. ETFs pay no stamp duty.
+- Cash earns China's 3-month interbank rate (FRED).
+
+Results cover rolling 3-year windows from 2014 to 2023, every ETF's whole history, an exposure-matched benchmark and shuffled-return nulls.
+
+```bash
+python backtests/ashare_etf_grid.py      # ~30 s → results_ashare_etf_grid/
+```
