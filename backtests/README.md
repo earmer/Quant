@@ -147,3 +147,18 @@ python backtests/fred_lab.py             # ~30 s after spec_lab.py has cached pr
 python backtests/lead_lag.py --phase train
 python backtests/lead_lag.py --phase validate
 ```
+
+## Self-discovering relationships
+
+`discover.py` finds relationships among about 480 S&P 500 stocks and eight commodity, dollar and bond ETFs with no pairs specified. It uses three models:
+
+- **Structure:** same-day direct links (partial correlations).
+- **Lead-lag:** per-stock Lasso regressions of the next-day and next-5-day move on about 990 lagged inputs.
+- **Pooled model:** gradient boosting with automatically built peer and cluster inputs.
+
+The models are trained on 2020, 2022 and 2024 (frozen in commit `10b702c`) and validated once on 2021, 2023 and 2025. Controls are a shuffled-timing null and a strict past-only walk-forward refit.
+
+```bash
+python backtests/discover.py --phase train
+python backtests/discover.py --phase validate
+```

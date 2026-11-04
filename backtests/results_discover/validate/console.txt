@@ -1,0 +1,33 @@
+Forecasts and trading, validation years
+                            ic_mean  ic_nw_t  oos_r2_%  gross_total_%  gross_cagr_%  gross_sharpe  gross_nw_t  net_total_%  net_cagr_%  net_sharpe  net_nw_t
+lasso_h1                     0.012    3.400    -0.207         10.039         3.395         0.782       1.452       -8.859      -3.186      -0.715    -1.331
+lasso_h1_cross_only          0.011    3.152    -0.209          9.019         3.060         0.701       1.250       -9.177      -3.304      -0.735    -1.310
+lasso_h1_2021                0.002    0.412    -0.307         -2.096        -2.182        -0.671      -0.758       -8.012      -8.329      -2.696    -3.024
+lasso_h1_2023                0.019    3.329    -0.153          7.813         8.219         1.955       2.282        1.398       1.468       0.377     0.440
+lasso_h1_2025                0.015    2.018    -0.176          4.250         4.467         0.813       0.861       -2.286      -2.399      -0.409    -0.436
+lasso_h5                     0.014    1.869    -0.698         13.140         4.403         0.939       1.693        8.532       2.899       0.631     1.136
+lasso_h5_cross_only          0.015    1.880    -0.684         13.474         4.511         0.966       1.719        8.961       3.041       0.663     1.179
+lasso_h5_2021               -0.003   -0.327    -1.075          0.098         0.102         0.047       0.046       -1.252      -1.303      -0.378    -0.368
+lasso_h5_2023                0.028    1.945    -0.552          9.889        10.409         2.481       2.316        8.418       8.857       2.121     1.984
+lasso_h5_2025                0.018    1.145    -0.533          2.858         3.003         0.504       0.588        1.374       1.444       0.260     0.304
+null_lasso_h1                0.012    3.152    -0.098         15.081         5.025         0.994       1.639        2.463       0.853       0.193     0.319
+gbm_h1                       0.020    4.126    -0.101         29.569         9.463         1.597       2.832      -28.858     -11.205      -2.031    -3.629
+walkforward_lasso_h1_2021    0.002    0.303    -0.684         -1.976        -2.056        -0.447      -0.397       -8.179      -8.502      -1.980    -1.745
+walkforward_lasso_h1_2023    0.012    1.625    -0.212          4.235         4.452         1.032       1.237        0.535       0.562       0.151     0.181
+walkforward_lasso_h1_2025    0.015    2.018    -0.176          4.250         4.467         0.813       0.861       -2.286      -2.399      -0.409    -0.436
+
+Structure persistence
+ partial_corr_train_vs_valid_corr     0.269
+top1000_overlap_%                   33.400
+top1000_overlap_by_chance_%          0.863
+top1000_same_subindustry_%_train    36.700
+top1000_same_subindustry_%_valid    32.600
+dtype: float64
+
+Lead-lag link persistence (cross-stock links, next-day model)
+ train_cross_edges             1106.00
+valid_refit_cross_edges        773.00
+found_in_both                    6.00
+expected_in_both_by_chance       1.80
+same_sign_%_of_both             66.67
+dtype: float64

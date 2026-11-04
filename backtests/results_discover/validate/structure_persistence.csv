@@ -1,0 +1,6 @@
+,0
+partial_corr_train_vs_valid_corr,0.2689
+top1000_overlap_%,33.4
+top1000_overlap_by_chance_%,0.8627
+top1000_same_subindustry_%_train,36.7
+top1000_same_subindustry_%_valid,32.6
