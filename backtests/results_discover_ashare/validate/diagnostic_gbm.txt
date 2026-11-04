@@ -1,0 +1,12 @@
+Post-validation diagnostic (not part of the frozen test): pooled GBM, validation years 2021/2023/2025.
+
+gross long-short CAGR, no limit/suspension rules:  8.73 %
+gross long-short CAGR, with the A-share rules:     -0.33 %
+rank IC of the forecast vs raw next-day return:    0.0229
+
+mean raw next-day return (bp) by forecast decile (1 = lowest):
+4.53  4.95  7.37  6.06  8.04  8.34  7.17  7.09  9.40  11.08
+
+inputs most correlated with the forecast (|corr|): own 4-day sum 0.263, own yesterday 0.187,
+correlation-cluster mean 0.165, least-correlated peers 0.060, most-correlated peers 0.043;
+factors and ETFs <= 0.034.

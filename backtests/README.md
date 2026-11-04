@@ -171,3 +171,20 @@ python backtests/discover.py --phase validate
 python backtests/discover_lags.py --phase train
 python backtests/discover_lags.py --phase validate
 ```
+
+## A-shares (CSI 300)
+
+`discover_ashare.py` runs the N → N+1 discovery test on 258 current CSI 300 members, using Yahoo Finance data (BaoStock's data server can't be reached from this environment). A-share rules:
+
+- **Suspensions:** zero volume or a missing row.
+- **Price limits:** ±9.8 % on the main board; ±19.8 % on ChiNext (±9.8 % before 24 August 2020) and on STAR; or High == Low with a large move. No buying on limit-up days, no selling on limit-down days; blocked positions carry over until they can be traded.
+- **Costs:** 8 bp one-way.
+- **Reporting:** a long-short book, and a long-only book with its active return over an equal-weighted universe.
+- **Market inputs:** onshore ETFs (CSI 300, CSI 500, ChiNext, gold, 5-year government bonds).
+
+Training was frozen in commit `d6e67bf` before validation.
+
+```bash
+python backtests/discover_ashare.py --phase train
+python backtests/discover_ashare.py --phase validate
+```
