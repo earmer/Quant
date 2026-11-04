@@ -1,2 +1,0 @@
-stocks 482, inputs 990, training days 726
-h1 {'targets_with_any_input': 482, 'cross_edges': 1106, 'own_edges': 10, 'median_cv_r2': -0.0020994068847618452, 'mean_cv_r2': -0.0022666781791910564}

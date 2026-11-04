@@ -241,8 +241,9 @@ def top_links(pc: pd.DataFrame, meta: pd.DataFrame, k: int = TOP_EDGES) -> pd.Da
 
 # ============================================================================ pooled GBM
 def peer_maps(Z: pd.DataFrame) -> tuple[dict, dict, pd.Series]:
-    c = Z.corr().fillna(0.0)
-    np.fill_diagonal(c.values, np.nan)
+    a = Z.corr().fillna(0.0).values.copy()
+    np.fill_diagonal(a, np.nan)
+    c = pd.DataFrame(a, Z.columns, Z.columns)
     pos = {s: c[s].nlargest(N_PEERS).index.tolist() for s in c}
     neg = {s: c[s].nsmallest(N_PEERS).index.tolist() for s in c}
     dist = np.clip(1 - c.fillna(1.0).values, 0, 2)
@@ -349,7 +350,9 @@ def run_train() -> None:
 
     # 2. lead-lag Lasso, both horizons, and the null
     summary = {}
-    for h, Y in (("h1", Y1), ("h5", Y5)):
+    done = (out / "leadlag_summary.csv").exists() and all(
+        (HERE / ".cache" / f"discover_lasso_{h}.pkl").exists() for h in ("h1", "h5"))
+    for h, Y in (() if done else (("h1", Y1), ("h5", Y5))):          # resume: Lasso fits already saved
         C, r2 = fit_lasso(X, Y, grp)
         C.to_pickle(HERE / ".cache" / f"discover_lasso_{h}.pkl")
         E = edges_of(C)
@@ -359,15 +362,16 @@ def run_train() -> None:
                           cross_edges=int((~E["own"]).sum()), own_edges=int(E["own"].sum()),
                           median_cv_r2=float(r2.median()), mean_cv_r2=float(r2.mean()))
         print(h, summary[h], flush=True)
-    Xn, Y1n, _, grpn, _ = design(prep, TRAIN, np.random.default_rng(SEED))
-    Cn, r2n = fit_lasso(Xn, Y1n, grpn)
-    En = edges_of(Cn)
-    En.to_csv(out / "null_edges_h1.csv", index=False, float_format="%.4g")
-    summary["null_h1"] = dict(targets_with_any_input=int((Cn != 0).any(axis=1).sum()),
-                              cross_edges=int((~En["own"]).sum()), own_edges=int(En["own"].sum()),
-                              median_cv_r2=float(r2n.median()), mean_cv_r2=float(r2n.mean()))
-    print("null_h1", summary["null_h1"], flush=True)
-    pd.DataFrame(summary).T.to_csv(out / "leadlag_summary.csv", float_format="%.5g")
+    if not done:
+        Xn, Y1n, _, grpn, _ = design(prep, TRAIN, np.random.default_rng(SEED))
+        Cn, r2n = fit_lasso(Xn, Y1n, grpn)
+        En = edges_of(Cn)
+        En.to_csv(out / "null_edges_h1.csv", index=False, float_format="%.4g")
+        summary["null_h1"] = dict(targets_with_any_input=int((Cn != 0).any(axis=1).sum()),
+                                  cross_edges=int((~En["own"]).sum()), own_edges=int(En["own"].sum()),
+                                  median_cv_r2=float(r2n.median()), mean_cv_r2=float(r2n.mean()))
+        print("null_h1", summary["null_h1"], flush=True)
+        pd.DataFrame(summary).T.to_csv(out / "leadlag_summary.csv", float_format="%.5g")
 
     # 3. pooled GBM
     pos, neg, cl = peer_maps(Z)

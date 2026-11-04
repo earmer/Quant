@@ -1,0 +1,24 @@
+stocks 482, inputs 990, training days 726
+h1 {'targets_with_any_input': 482, 'cross_edges': 1106, 'own_edges': 10, 'median_cv_r2': -0.0020994068847618452, 'mean_cv_r2': -0.0022666781791910564}
+h5 {'targets_with_any_input': 482, 'cross_edges': 1039, 'own_edges': 9, 'median_cv_r2': -0.00372827246555274, 'mean_cv_r2': -0.0031548350275412856}
+null_h1 {'targets_with_any_input': 482, 'cross_edges': 392, 'own_edges': 0, 'median_cv_r2': -0.0021370714602227947, 'mean_cv_r2': -0.002675476215763655}
+Traceback (most recent call last):
+  File "/home/user/Quant/backtests/discover.py", line 492, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/Quant/backtests/discover.py", line 488, in main
+    run_train() if ap.parse_args().phase == "train" else run_validate()
+    ~~~~~~~~~^^
+  File "/home/user/Quant/backtests/discover.py", line 373, in run_train
+    pos, neg, cl = peer_maps(Z)
+                   ~~~~~~~~~^^^
+  File "/home/user/Quant/backtests/discover.py", line 245, in peer_maps
+    np.fill_diagonal(c.values, np.nan)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/numpy/lib/_index_tricks_impl.py", line 923, in fill_diagonal
+    a.flat[:end:step] = val
+    ~~~~~~^^^^^^^^^^^
+ValueError: underlying array is read-only
+stocks 482, inputs 990, training days 726
+in-sample {'lasso_h1_in_sample_ic': np.float64(0.0746318062302004), 'lasso_h1_in_sample_ic_t': np.float64(20.3059390265127)}
+structure label shares: {'cross-sector': 0.43, 'same sub-industry': 0.367, 'same sector': 0.203}

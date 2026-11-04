@@ -1,0 +1,4 @@
+,targets_with_any_input,cross_edges,own_edges,median_cv_r2,mean_cv_r2
+h1,482,1106,10,-0.0020994,-0.0022667
+h5,482,1039,9,-0.0037283,-0.0031548
+null_h1,482,392,0,-0.0021371,-0.0026755
