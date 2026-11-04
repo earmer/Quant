@@ -1,0 +1,3 @@
+stocks 258, inputs 536, training days 697; suspended 0.48 %, limit-up 0.66 %, limit-down 0.22 % of stock-days (2019-2026)
+real {'cross_edges': 276, 'own_edges': 9, 'median_cv_r2_pct': -0.2398676781623421}
+null {'cross_edges': 349, 'own_edges': 1, 'median_cv_r2_pct': -0.17864800945959214}
