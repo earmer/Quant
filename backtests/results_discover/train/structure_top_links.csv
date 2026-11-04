@@ -1,0 +1,1001 @@
+a,b,partial_corr,label,sub_a,sub_b
+GOOGL,GOOG,0.5138,same sub-industry,Interactive Media & Services,Interactive Media & Services
+FOXA,FOX,0.5073,same sub-industry,Broadcasting,Broadcasting
+NWSA,NWS,0.5008,same sub-industry,Publishing,Publishing
+MLM,VMC,0.3762,same sub-industry,Construction Materials,Construction Materials
+NUE,STLD,0.3715,same sub-industry,Steel,Steel
+LVS,WYNN,0.3313,same sub-industry,Casinos & Gaming,Casinos & Gaming
+LH,DGX,0.3161,same sub-industry,Health Care Services,Health Care Services
+DAL,UAL,0.3157,same sub-industry,Passenger Airlines,Passenger Airlines
+RSG,WM,0.3106,same sub-industry,Environmental & Facilities Services,Environmental & Facilities Services
+MA,V,0.309,same sub-industry,Transaction & Payment Processing Services,Transaction & Payment Processing Services
+EXR,PSA,0.3055,same sub-industry,Self-Storage REITs,Self-Storage REITs
+AZO,ORLY,0.2941,same sub-industry,Automotive Retail,Automotive Retail
+CDNS,SNPS,0.2939,same sub-industry,Application Software,Application Software
+HCA,UHS,0.2854,same sub-industry,Health Care Facilities,Health Care Facilities
+HLT,MAR,0.2828,same sub-industry,"Hotels, Resorts & Cruise Lines","Hotels, Resorts & Cruise Lines"
+MCO,SPGI,0.2826,same sub-industry,Financial Exchanges & Data,Financial Exchanges & Data
+MPC,VLO,0.2781,same sub-industry,Oil & Gas Refining & Marketing,Oil & Gas Refining & Marketing
+ROST,TJX,0.2762,same sub-industry,Apparel Retail,Apparel Retail
+CSX,NSC,0.2741,same sub-industry,Rail Transportation,Rail Transportation
+DOW,LYB,0.2712,same sector,Commodity Chemicals,Specialty Chemicals
+COF,SYF,0.2656,same sub-industry,Consumer Finance,Consumer Finance
+HD,LOW,0.263,same sub-industry,Home Improvement Retail,Home Improvement Retail
+AON,WTW,0.259,same sub-industry,Insurance Brokers,Insurance Brokers
+NRG,VST,0.2584,same sector,Independent Power Producers & Energy Traders,Electric Utilities
+CF,MOS,0.2582,same sub-industry,Fertilizers & Agricultural Chemicals,Fertilizers & Agricultural Chemicals
+F,GM,0.2576,same sub-industry,Automobile Manufacturers,Automobile Manufacturers
+DHI,LEN,0.2566,same sub-industry,Homebuilding,Homebuilding
+CPT,MAA,0.2563,same sub-industry,Multi-Family Residential REITs,Multi-Family Residential REITs
+COR,MCK,0.2552,same sub-industry,Health Care Distributors,Health Care Distributors
+T,VZ,0.2504,same sub-industry,Integrated Telecommunication Services,Integrated Telecommunication Services
+DLR,EQIX,0.2484,same sub-industry,Data Center REITs,Data Center REITs
+IP,PKG,0.247,same sub-industry,Paper & Plastic Packaging Products & Materials,Paper & Plastic Packaging Products & Materials
+AMAT,LRCX,0.2464,same sub-industry,Semiconductor Materials & Equipment,Semiconductor Materials & Equipment
+ADP,PAYX,0.2456,same sub-industry,Human Resource & Employment Services,Human Resource & Employment Services
+JBHT,ODFL,0.2417,same sub-industry,Cargo Ground Transportation,Cargo Ground Transportation
+ADM,BG,0.2403,same sub-industry,Agricultural Products & Services,Agricultural Products & Services
+GS,MS,0.2401,same sub-industry,Investment Banking & Brokerage,Investment Banking & Brokerage
+PSX,VLO,0.2388,same sub-industry,Oil & Gas Refining & Marketing,Oil & Gas Refining & Marketing
+CCL,NCLH,0.2374,same sub-industry,"Hotels, Resorts & Cruise Lines","Hotels, Resorts & Cruise Lines"
+NCLH,RCL,0.236,same sub-industry,"Hotels, Resorts & Cruise Lines","Hotels, Resorts & Cruise Lines"
+DHR,TMO,0.236,same sub-industry,Life Sciences Tools & Services,Life Sciences Tools & Services
+FRT,REG,0.2356,same sub-industry,Retail REITs,Retail REITs
+FAST,GWW,0.2301,same sector,Trading Companies & Distributors,Industrial Machinery & Supplies & Components
+BNY,STT,0.2294,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+NSC,UNP,0.2276,same sub-industry,Rail Transportation,Rail Transportation
+VTR,WELL,0.2273,same sub-industry,Health Care REITs,Health Care REITs
+CCL,RCL,0.2272,same sub-industry,"Hotels, Resorts & Cruise Lines","Hotels, Resorts & Cruise Lines"
+MET,PRU,0.2214,same sub-industry,Life & Health Insurance,Life & Health Insurance
+FLEX,JBL,0.2189,same sub-industry,Electronic Manufacturing Services,Electronic Manufacturing Services
+DHI,PHM,0.2186,same sub-industry,Homebuilding,Homebuilding
+LEN,PHM,0.2179,same sub-industry,Homebuilding,Homebuilding
+MU,WDC,0.2135,same sector,Semiconductors,"Technology Hardware, Storage & Peripherals"
+CHTR,CMCSA,0.2135,same sub-industry,Cable & Satellite,Cable & Satellite
+MO,PM,0.2103,same sub-industry,Tobacco,Tobacco
+LMT,NOC,0.2095,same sub-industry,Aerospace & Defense,Aerospace & Defense
+AMT,SBAC,0.2053,same sub-industry,Telecom Tower REITs,Telecom Tower REITs
+ACGL,EG,0.2025,same sector,Property & Casualty Insurance,Reinsurance
+A,WAT,0.1984,same sub-industry,Life Sciences Tools & Services,Life Sciences Tools & Services
+CCI,SBAC,0.1984,same sub-industry,Telecom Tower REITs,Telecom Tower REITs
+FIX,EME,0.1978,same sub-industry,Construction & Engineering,Construction & Engineering
+AMT,CCI,0.1973,same sub-industry,Telecom Tower REITs,Telecom Tower REITs
+DG,DLTR,0.1969,same sub-industry,Consumer Staples Merchandise Retail,Consumer Staples Merchandise Retail
+CRL,IQV,0.1961,same sub-industry,Life Sciences Tools & Services,Life Sciences Tools & Services
+UDR,VMRK,0.1954,same sub-industry,Multi-Family Residential REITs,Multi-Family Residential REITs
+CMI,PCAR,0.1938,same sub-industry,Construction Machinery & Heavy Transportation Equipment,Construction Machinery & Heavy Transportation Equipment
+CNC,ELV,0.1928,same sub-industry,Managed Health Care,Managed Health Care
+ESS,VMRK,0.1927,same sub-industry,Multi-Family Residential REITs,Multi-Family Residential REITs
+KLAC,LRCX,0.1926,same sub-industry,Semiconductor Materials & Equipment,Semiconductor Materials & Equipment
+CAH,MCK,0.1922,same sub-industry,Health Care Distributors,Health Care Distributors
+HUM,UNH,0.1869,same sub-industry,Managed Health Care,Managed Health Care
+HAL,SLB,0.1854,same sub-industry,Oil & Gas Equipment & Services,Oil & Gas Equipment & Services
+AMAT,KLAC,0.1838,same sub-industry,Semiconductor Materials & Equipment,Semiconductor Materials & Equipment
+APO,KKR,0.1836,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+CB,TRV,0.1834,same sub-industry,Property & Casualty Insurance,Property & Casualty Insurance
+ADI,TXN,0.1806,same sub-industry,Semiconductors,Semiconductors
+OKE,TRGP,0.18,same sub-industry,Oil & Gas Storage & Transportation,Oil & Gas Storage & Transportation
+CSX,UNP,0.179,same sub-industry,Rail Transportation,Rail Transportation
+ESS,UDR,0.1788,same sub-industry,Multi-Family Residential REITs,Multi-Family Residential REITs
+LHX,NOC,0.1785,same sub-industry,Aerospace & Defense,Aerospace & Defense
+BX,KKR,0.1778,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+COST,WMT,0.1768,same sub-industry,Consumer Staples Merchandise Retail,Consumer Staples Merchandise Retail
+STX,WDC,0.1743,same sub-industry,"Technology Hardware, Storage & Peripherals","Technology Hardware, Storage & Peripherals"
+CME,ICE,0.1731,same sub-industry,Financial Exchanges & Data,Financial Exchanges & Data
+COHR,LITE,0.1721,same sector,Electronic Components,Communications Equipment
+CAH,COR,0.1715,same sub-industry,Health Care Distributors,Health Care Distributors
+BKNG,EXPE,0.1711,same sub-industry,"Hotels, Resorts & Cruise Lines","Hotels, Resorts & Cruise Lines"
+MPC,PSX,0.1708,same sub-industry,Oil & Gas Refining & Marketing,Oil & Gas Refining & Marketing
+CHRW,EXPD,0.1699,same sub-industry,Air Freight & Logistics,Air Freight & Logistics
+BAC,JPM,0.1673,same sub-industry,Diversified Banks,Diversified Banks
+FCX,NEM,0.1653,same sector,Copper,Gold
+SYK,ZBH,0.1645,same sub-industry,Health Care Equipment,Health Care Equipment
+NTRS,STT,0.1634,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+FDX,UPS,0.1632,same sub-industry,Air Freight & Logistics,Air Freight & Logistics
+APD,LIN,0.1631,same sub-industry,Industrial Gases,Industrial Gases
+ALL,PGR,0.1625,same sub-industry,Property & Casualty Insurance,Property & Casualty Insurance
+LHX,LMT,0.1616,same sub-industry,Aerospace & Defense,Aerospace & Defense
+P,NTAP,0.1601,same sub-industry,"Technology Hardware, Storage & Peripherals","Technology Hardware, Storage & Peripherals"
+BEN,IVZ,0.1596,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+AJG,BRO,0.1592,same sub-industry,Insurance Brokers,Insurance Brokers
+AON,MRSH,0.1588,same sub-industry,Insurance Brokers,Insurance Brokers
+BNY,NTRS,0.1586,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+ELV,UNH,0.158,same sub-industry,Managed Health Care,Managed Health Care
+KMB,PG,0.1577,same sector,Household Products,Personal Care Products
+SCHW,RJF,0.1571,same sub-industry,Investment Banking & Brokerage,Investment Banking & Brokerage
+KMI,WMB,0.1562,same sub-industry,Oil & Gas Storage & Transportation,Oil & Gas Storage & Transportation
+ACN,CTSH,0.1561,same sub-industry,IT Consulting & Other Services,IT Consulting & Other Services
+NXPI,ON,0.156,same sub-industry,Semiconductors,Semiconductors
+FRT,KIM,0.1552,same sub-industry,Retail REITs,Retail REITs
+MGM,WYNN,0.1548,same sub-industry,Casinos & Gaming,Casinos & Gaming
+KIM,REG,0.1548,same sub-industry,Retail REITs,Retail REITs
+RL,TPR,0.1541,same sub-industry,"Apparel, Accessories & Luxury Goods","Apparel, Accessories & Luxury Goods"
+MCD,YUM,0.152,same sub-industry,Restaurants,Restaurants
+ARES,KKR,0.1499,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+A,MTD,0.1492,same sub-industry,Life Sciences Tools & Services,Life Sciences Tools & Services
+IDXX,ZTS,0.1488,same sector,Health Care Equipment,Pharmaceuticals
+CI,ELV,0.1474,same sector,Health Care Services,Managed Health Care
+MRSH,WTW,0.1446,same sub-industry,Insurance Brokers,Insurance Brokers
+AMD,NVDA,0.1429,same sub-industry,Semiconductors,Semiconductors
+FTNT,PANW,0.1425,same sub-industry,Systems Software,Systems Software
+FIS,GPN,0.1416,same sub-industry,Transaction & Payment Processing Services,Transaction & Payment Processing Services
+NVR,PHM,0.1409,same sub-industry,Homebuilding,Homebuilding
+BKR,SLB,0.139,same sub-industry,Oil & Gas Equipment & Services,Oil & Gas Equipment & Services
+HPE,HPQ,0.1372,same sub-industry,"Technology Hardware, Storage & Peripherals","Technology Hardware, Storage & Peripherals"
+AJG,MRSH,0.1368,same sub-industry,Insurance Brokers,Insurance Brokers
+CFG,FITB,0.1354,same sub-industry,Regional Banks,Regional Banks
+ICE,NDAQ,0.135,same sub-industry,Financial Exchanges & Data,Financial Exchanges & Data
+CPT,UDR,0.1344,same sub-industry,Multi-Family Residential REITs,Multi-Family Residential REITs
+BAC,C,0.1332,same sub-industry,Diversified Banks,Diversified Banks
+CFG,KEY,0.1322,same sub-industry,Regional Banks,Regional Banks
+MTD,WAT,0.1319,same sub-industry,Life Sciences Tools & Services,Life Sciences Tools & Services
+CNC,UNH,0.1303,same sub-industry,Managed Health Care,Managed Health Care
+HIG,TRV,0.1297,same sub-industry,Property & Casualty Insurance,Property & Casualty Insurance
+DVN,FANG,0.1297,same sub-industry,Oil & Gas Exploration & Production,Oil & Gas Exploration & Production
+AXP,COF,0.1291,same sub-industry,Consumer Finance,Consumer Finance
+FISV,GPN,0.1286,same sub-industry,Transaction & Payment Processing Services,Transaction & Payment Processing Services
+LUV,UAL,0.1273,same sub-industry,Passenger Airlines,Passenger Airlines
+PFG,PRU,0.1266,same sub-industry,Life & Health Insurance,Life & Health Insurance
+CAT,DE,0.1261,same sector,Construction Machinery & Heavy Transportation Equipment,Agricultural & Farm Machinery
+DAL,LUV,0.126,same sub-industry,Passenger Airlines,Passenger Airlines
+DELL,HPQ,0.126,same sub-industry,"Technology Hardware, Storage & Peripherals","Technology Hardware, Storage & Peripherals"
+CIEN,LITE,0.1258,same sub-industry,Communications Equipment,Communications Equipment
+BE,FSLR,0.1257,cross-sector,Electrical Components & Equipment,Semiconductors
+ARE,BXP,0.1257,same sub-industry,Office REITs,Office REITs
+CL,PG,0.1243,same sector,Household Products,Personal Care Products
+ADI,MCHP,0.123,same sub-industry,Semiconductors,Semiconductors
+DHI,NVR,0.1224,same sub-industry,Homebuilding,Homebuilding
+CVX,XOM,0.1222,same sub-industry,Integrated Oil & Gas,Integrated Oil & Gas
+APO,BX,0.122,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+MCHP,TXN,0.1217,same sub-industry,Semiconductors,Semiconductors
+LEN,NVR,0.1216,same sub-industry,Homebuilding,Homebuilding
+COP,EOG,0.1213,same sub-industry,Oil & Gas Exploration & Production,Oil & Gas Exploration & Production
+MDT,ZBH,0.1212,same sub-industry,Health Care Equipment,Health Care Equipment
+MCHP,ON,0.1209,same sub-industry,Semiconductors,Semiconductors
+KO,PEP,0.1206,same sub-industry,Soft Drinks & Non-alcoholic Beverages,Soft Drinks & Non-alcoholic Beverages
+BAC,WFC,0.1193,same sub-industry,Diversified Banks,Diversified Banks
+APH,TEL,0.1183,same sector,Electronic Components,Electronic Manufacturing Services
+ARES,BX,0.1178,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+PNC,TFC,0.1168,same sub-industry,Diversified Banks,Diversified Banks
+ES,WEC,0.1165,same sub-industry,Electric Utilities,Electric Utilities
+ETN,HUBB,0.1163,same sector,Electrical Components & Equipment,Industrial Machinery & Supplies & Components
+MRNA,PFE,0.1161,same sector,Biotechnology,Pharmaceuticals
+ELV,HUM,0.1159,same sub-industry,Managed Health Care,Managed Health Care
+BBY,WSM,0.1158,same sector,Computer & Electronics Retail,Homefurnishing Retail
+BSX,SYK,0.1154,same sub-industry,Health Care Equipment,Health Care Equipment
+AZO,GPC,0.1152,same sector,Automotive Retail,Distributors
+BF-B,STZ,0.1145,same sub-industry,Distillers & Vintners,Distillers & Vintners
+AAPL,SWKS,0.1144,same sector,"Technology Hardware, Storage & Peripherals",Semiconductors
+DOC,WELL,0.1141,same sub-industry,Health Care REITs,Health Care REITs
+CLX,KMB,0.1141,same sub-industry,Household Products,Household Products
+SCHW,IBKR,0.114,same sub-industry,Investment Banking & Brokerage,Investment Banking & Brokerage
+AON,AJG,0.114,same sub-industry,Insurance Brokers,Insurance Brokers
+BLK,TROW,0.1131,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+HST,MAR,0.1123,cross-sector,Hotel & Resort REITs,"Hotels, Resorts & Cruise Lines"
+BEN,TROW,0.1123,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+FIS,FISV,0.1123,same sub-industry,Transaction & Payment Processing Services,Transaction & Payment Processing Services
+JCI,TT,0.1111,same sub-industry,Building Products,Building Products
+PPG,SHW,0.1106,same sub-industry,Specialty Chemicals,Specialty Chemicals
+FITB,PNC,0.1105,same sector,Regional Banks,Diversified Banks
+GPC,ORLY,0.1099,same sector,Distributors,Automotive Retail
+CI,UNH,0.1096,same sector,Health Care Services,Managed Health Care
+BBY,TGT,0.1094,cross-sector,Computer & Electronics Retail,Consumer Staples Merchandise Retail
+CRH,VMC,0.1082,same sub-industry,Construction Materials,Construction Materials
+DG,TGT,0.108,same sub-industry,Consumer Staples Merchandise Retail,Consumer Staples Merchandise Retail
+AAPL,MSFT,0.108,same sector,"Technology Hardware, Storage & Peripherals",Systems Software
+HBAN,KEY,0.1076,same sub-industry,Regional Banks,Regional Banks
+EMR,ROK,0.1075,same sub-industry,Electrical Components & Equipment,Electrical Components & Equipment
+DOV,PH,0.107,same sub-industry,Industrial Machinery & Supplies & Components,Industrial Machinery & Supplies & Components
+KEY,RF,0.1064,same sub-industry,Regional Banks,Regional Banks
+REGN,VRTX,0.106,same sub-industry,Biotechnology,Biotechnology
+ADSK,PTC,0.1058,same sub-industry,Application Software,Application Software
+RVTY,TMO,0.1057,same sector,Health Care Equipment,Life Sciences Tools & Services
+FITB,RF,0.1056,same sub-industry,Regional Banks,Regional Banks
+INCY,REGN,0.1053,same sub-industry,Biotechnology,Biotechnology
+CB,WRB,0.1053,same sub-industry,Property & Casualty Insurance,Property & Casualty Insurance
+CMS,WEC,0.1051,same sector,Multi-Utilities,Electric Utilities
+CHD,CLX,0.1046,same sub-industry,Household Products,Household Products
+C,GS,0.1045,same sector,Diversified Banks,Investment Banking & Brokerage
+LULU,NKE,0.1043,same sub-industry,"Apparel, Accessories & Luxury Goods","Apparel, Accessories & Luxury Goods"
+EQT,WMB,0.1039,same sector,Oil & Gas Exploration & Production,Oil & Gas Storage & Transportation
+CB,EG,0.1037,same sector,Property & Casualty Insurance,Reinsurance
+CMS,DTE,0.1031,same sub-industry,Multi-Utilities,Multi-Utilities
+MAA,UDR,0.1021,same sub-industry,Multi-Family Residential REITs,Multi-Family Residential REITs
+BRO,MRSH,0.1014,same sub-industry,Insurance Brokers,Insurance Brokers
+CSCO,FFIV,0.1009,same sub-industry,Communications Equipment,Communications Equipment
+FDS,MSCI,0.1008,same sub-industry,Financial Exchanges & Data,Financial Exchanges & Data
+BF-B,ROL,-0.1008,cross-sector,Distillers & Vintners,Environmental & Facilities Services
+HII,LHX,0.1006,same sub-industry,Aerospace & Defense,Aerospace & Defense
+CNP,SRE,0.1005,same sub-industry,Multi-Utilities,Multi-Utilities
+GS,JPM,0.1004,same sector,Investment Banking & Brokerage,Diversified Banks
+CHD,PG,0.1004,same sector,Household Products,Personal Care Products
+KIM,SPG,0.1001,same sub-industry,Retail REITs,Retail REITs
+NXPI,TXN,0.09972,same sub-industry,Semiconductors,Semiconductors
+MDT,SYK,0.09958,same sub-industry,Health Care Equipment,Health Care Equipment
+ACN,IBM,0.09926,same sub-industry,IT Consulting & Other Services,IT Consulting & Other Services
+QCOM,SWKS,0.09914,same sub-industry,Semiconductors,Semiconductors
+ADI,NXPI,0.09912,same sub-industry,Semiconductors,Semiconductors
+EIX,PCG,0.09894,same sector,Electric Utilities,Multi-Utilities
+DXCM,PODD,0.09887,same sub-industry,Health Care Equipment,Health Care Equipment
+MTB,RF,0.09875,same sub-industry,Regional Banks,Regional Banks
+BA,HWM,0.09872,same sub-industry,Aerospace & Defense,Aerospace & Defense
+CMG,YUM,0.09841,same sub-industry,Restaurants,Restaurants
+LVS,MGM,0.09834,same sub-industry,Casinos & Gaming,Casinos & Gaming
+MET,PFG,0.09796,same sub-industry,Life & Health Insurance,Life & Health Insurance
+FISV,JKHY,0.09691,same sub-industry,Transaction & Payment Processing Services,Transaction & Payment Processing Services
+C,JPM,0.09685,same sub-industry,Diversified Banks,Diversified Banks
+CFG,RF,0.09666,same sub-industry,Regional Banks,Regional Banks
+JNJ,PFE,0.09665,same sub-industry,Pharmaceuticals,Pharmaceuticals
+CRM,NOW,0.09633,same sector,Application Software,Systems Software
+CFG,HBAN,0.09631,same sub-industry,Regional Banks,Regional Banks
+PEG,VST,0.0963,same sub-industry,Electric Utilities,Electric Utilities
+CB,HIG,0.09591,same sub-industry,Property & Casualty Insurance,Property & Casualty Insurance
+EG,WRB,0.09495,same sector,Reinsurance,Property & Casualty Insurance
+NKE,SBUX,0.0949,same sector,"Apparel, Accessories & Luxury Goods",Restaurants
+APO,ARES,0.09452,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+DVA,UHS,0.0944,same sector,Health Care Services,Health Care Facilities
+MCHP,NXPI,0.09402,same sub-industry,Semiconductors,Semiconductors
+BDX,STE,0.09388,same sub-industry,Health Care Equipment,Health Care Equipment
+GD,RTX,0.09313,same sub-industry,Aerospace & Defense,Aerospace & Defense
+EXPD,JBHT,0.09307,same sector,Air Freight & Logistics,Cargo Ground Transportation
+MCO,MSCI,0.09272,same sub-industry,Financial Exchanges & Data,Financial Exchanges & Data
+NOC,RTX,0.09254,same sub-industry,Aerospace & Defense,Aerospace & Defense
+HSY,MDLZ,0.0924,same sub-industry,Packaged Foods & Meats,Packaged Foods & Meats
+CRWD,PANW,0.09218,same sub-industry,Systems Software,Systems Software
+DOC,VTR,0.09218,same sub-industry,Health Care REITs,Health Care REITs
+BR,JKHY,0.0921,cross-sector,Data Processing & Outsourced Services,Transaction & Payment Processing Services
+AMZN,DXCM,-0.09171,cross-sector,Broadline Retail,Health Care Equipment
+CVX,COP,0.09167,same sector,Integrated Oil & Gas,Oil & Gas Exploration & Production
+LNT,CMS,0.09154,same sector,Electric Utilities,Multi-Utilities
+TECH,WAT,0.09145,same sub-industry,Life Sciences Tools & Services,Life Sciences Tools & Services
+CVS,HUM,0.09135,same sector,Health Care Services,Managed Health Care
+AFL,MET,0.09102,same sub-industry,Life & Health Insurance,Life & Health Insurance
+AES,NEE,0.09099,same sector,Independent Power Producers & Energy Traders,Multi-Utilities
+ATO,NI,0.09085,same sector,Gas Utilities,Multi-Utilities
+TRV,WRB,0.09066,same sub-industry,Property & Casualty Insurance,Property & Casualty Insurance
+MRNA,REGN,0.09034,same sub-industry,Biotechnology,Biotechnology
+D,DTE,0.09026,same sub-industry,Multi-Utilities,Multi-Utilities
+AFL,ALL,0.09018,same sector,Life & Health Insurance,Property & Casualty Insurance
+ALLE,SNA,-0.09001,same sector,Building Products,Industrial Machinery & Supplies & Components
+BSX,MDT,0.08989,same sub-industry,Health Care Equipment,Health Care Equipment
+GIS,KHC,0.08982,same sub-industry,Packaged Foods & Meats,Packaged Foods & Meats
+HBAN,RF,0.0896,same sub-industry,Regional Banks,Regional Banks
+HRL,TSN,0.08955,same sub-industry,Packaged Foods & Meats,Packaged Foods & Meats
+MRNA,SYY,0.08947,cross-sector,Biotechnology,Food Distributors
+KDP,PEP,0.08905,same sub-industry,Soft Drinks & Non-alcoholic Beverages,Soft Drinks & Non-alcoholic Beverages
+GPN,V,0.08897,same sub-industry,Transaction & Payment Processing Services,Transaction & Payment Processing Services
+DRI,SYY,0.08889,cross-sector,Restaurants,Food Distributors
+DD,LIN,0.08887,cross-sector,Industrial Conglomerates,Industrial Gases
+BA,GE,0.08874,same sub-industry,Aerospace & Defense,Aerospace & Defense
+AMAT,TER,0.08855,same sub-industry,Semiconductor Materials & Equipment,Semiconductor Materials & Equipment
+FIS,MA,0.08848,same sub-industry,Transaction & Payment Processing Services,Transaction & Payment Processing Services
+APTV,GM,0.08833,same sector,Automotive Parts & Equipment,Automobile Manufacturers
+AIG,HIG,0.0883,same sector,Multi-line Insurance,Property & Casualty Insurance
+SBUX,YUM,0.08817,same sub-industry,Restaurants,Restaurants
+MAR,MGM,0.08795,same sector,"Hotels, Resorts & Cruise Lines",Casinos & Gaming
+LNT,WEC,0.08765,same sub-industry,Electric Utilities,Electric Utilities
+DLTR,TGT,0.08757,same sub-industry,Consumer Staples Merchandise Retail,Consumer Staples Merchandise Retail
+CPAY,GPN,0.08755,same sub-industry,Transaction & Payment Processing Services,Transaction & Payment Processing Services
+EFX,INVH,-0.08754,cross-sector,Research & Consulting Services,Single-Family Residential REITs
+BF-B,KDP,0.08747,same sector,Distillers & Vintners,Soft Drinks & Non-alcoholic Beverages
+CL,KMB,0.08691,same sub-industry,Household Products,Household Products
+MNST,PEP,0.08658,same sub-industry,Soft Drinks & Non-alcoholic Beverages,Soft Drinks & Non-alcoholic Beverages
+GIS,SJM,0.08648,same sub-industry,Packaged Foods & Meats,Packaged Foods & Meats
+ISRG,SYK,0.08605,same sub-industry,Health Care Equipment,Health Care Equipment
+AFL,PRU,0.08594,same sub-industry,Life & Health Insurance,Life & Health Insurance
+CRH,MLM,0.0858,same sub-industry,Construction Materials,Construction Materials
+FRT,SPG,0.08565,same sub-industry,Retail REITs,Retail REITs
+FOXA,SKYD,0.08536,same sector,Broadcasting,Movies & Entertainment
+AON,BRO,0.0852,same sub-industry,Insurance Brokers,Insurance Brokers
+AIG,PRU,0.08475,same sector,Multi-line Insurance,Life & Health Insurance
+AJG,WTW,0.08434,same sub-industry,Insurance Brokers,Insurance Brokers
+GD,LHX,0.08428,same sub-industry,Aerospace & Defense,Aerospace & Defense
+GE,TDG,0.08417,same sub-industry,Aerospace & Defense,Aerospace & Defense
+AEE,MNST,-0.08409,cross-sector,Multi-Utilities,Soft Drinks & Non-alcoholic Beverages
+TSCO,UNP,0.08405,cross-sector,Other Specialty Retail,Rail Transportation
+LLY,MRK,0.08401,same sub-industry,Pharmaceuticals,Pharmaceuticals
+CVNA,TDG,-0.08398,cross-sector,Automotive Retail,Aerospace & Defense
+FITB,HBAN,0.08396,same sub-industry,Regional Banks,Regional Banks
+GD,HII,0.08395,same sub-industry,Aerospace & Defense,Aerospace & Defense
+AXP,SYF,0.0838,same sub-industry,Consumer Finance,Consumer Finance
+CVS,UNH,0.08377,same sector,Health Care Services,Managed Health Care
+APTV,TEL,0.08376,cross-sector,Automotive Parts & Equipment,Electronic Manufacturing Services
+FITB,TFC,0.08367,same sector,Regional Banks,Diversified Banks
+BSX,ZBH,0.08359,same sub-industry,Health Care Equipment,Health Care Equipment
+EW,SYK,0.0835,same sub-industry,Health Care Equipment,Health Care Equipment
+AMZN,MSFT,0.0835,cross-sector,Broadline Retail,Systems Software
+HLT,HST,0.08339,cross-sector,"Hotels, Resorts & Cruise Lines",Hotel & Resort REITs
+AME,GWW,0.08332,same sector,Electrical Components & Equipment,Industrial Machinery & Supplies & Components
+DVA,HCA,0.08321,same sector,Health Care Services,Health Care Facilities
+DD,NDSN,0.08305,same sector,Industrial Conglomerates,Industrial Machinery & Supplies & Components
+EXC,PEG,0.08293,same sub-industry,Electric Utilities,Electric Utilities
+DPZ,YUM,0.08279,same sub-industry,Restaurants,Restaurants
+INCY,VRTX,0.08272,same sub-industry,Biotechnology,Biotechnology
+MAS,SHW,0.08255,cross-sector,Building Products,Specialty Chemicals
+BKR,HAL,0.08242,same sub-industry,Oil & Gas Equipment & Services,Oil & Gas Equipment & Services
+KHC,MDLZ,0.08221,same sub-industry,Packaged Foods & Meats,Packaged Foods & Meats
+DELL,HPE,0.08216,same sub-industry,"Technology Hardware, Storage & Peripherals","Technology Hardware, Storage & Peripherals"
+AAPL,TSLA,0.08213,cross-sector,"Technology Hardware, Storage & Peripherals",Automobile Manufacturers
+CRWD,DDOG,0.08201,same sector,Systems Software,Application Software
+ANET,AVGO,0.08198,same sector,Communications Equipment,Semiconductors
+EW,ISRG,0.08191,same sub-industry,Health Care Equipment,Health Care Equipment
+ECL,PPG,0.08179,same sub-industry,Specialty Chemicals,Specialty Chemicals
+CASY,CBRE,-0.08175,cross-sector,Food Retail,Real Estate Services
+IRM,XEL,-0.0817,cross-sector,Other Specialized REITs,Multi-Utilities
+CBOE,CME,0.0814,same sub-industry,Financial Exchanges & Data,Financial Exchanges & Data
+ADI,ON,0.08131,same sub-industry,Semiconductors,Semiconductors
+META,NFLX,0.08122,same sector,Interactive Media & Services,Movies & Entertainment
+IEX,XYL,0.08107,same sub-industry,Industrial Machinery & Supplies & Components,Industrial Machinery & Supplies & Components
+CHD,KMB,0.08099,same sub-industry,Household Products,Household Products
+BSX,ISRG,0.08097,same sub-industry,Health Care Equipment,Health Care Equipment
+CINF,HIG,0.08093,same sub-industry,Property & Casualty Insurance,Property & Casualty Insurance
+PNR,SWK,0.08089,same sub-industry,Industrial Machinery & Supplies & Components,Industrial Machinery & Supplies & Components
+APA,DVN,0.08083,same sub-industry,Oil & Gas Exploration & Production,Oil & Gas Exploration & Production
+TRGP,WMB,0.0808,same sub-industry,Oil & Gas Storage & Transportation,Oil & Gas Storage & Transportation
+ALB,TSLA,0.08057,cross-sector,Specialty Chemicals,Automobile Manufacturers
+GOOGL,MSFT,0.08048,cross-sector,Interactive Media & Services,Systems Software
+HD,TSCO,0.08029,same sector,Home Improvement Retail,Other Specialty Retail
+KLAC,TER,0.08025,same sub-industry,Semiconductor Materials & Equipment,Semiconductor Materials & Equipment
+LII,TT,0.08017,same sub-industry,Building Products,Building Products
+KR,TSCO,0.07994,cross-sector,Food Retail,Other Specialty Retail
+ALGN,IDXX,0.07984,same sector,Health Care Supplies,Health Care Equipment
+ALGN,HSIC,0.07971,same sector,Health Care Supplies,Health Care Distributors
+CRM,WDAY,0.07963,same sub-industry,Application Software,Application Software
+SWKS,TXN,0.07946,same sub-industry,Semiconductors,Semiconductors
+CDW,FCX,-0.07945,cross-sector,Technology Distributors,Copper
+FITB,KEY,0.07937,same sub-industry,Regional Banks,Regional Banks
+CRL,LH,0.07918,same sector,Life Sciences Tools & Services,Health Care Services
+CRWD,RL,0.07898,cross-sector,Systems Software,"Apparel, Accessories & Luxury Goods"
+FTV,PH,0.07884,same sub-industry,Industrial Machinery & Supplies & Components,Industrial Machinery & Supplies & Components
+DRI,MPC,-0.07877,cross-sector,Restaurants,Oil & Gas Refining & Marketing
+LOW,TSCO,0.07875,same sector,Home Improvement Retail,Other Specialty Retail
+AIG,PFG,0.07864,same sector,Multi-line Insurance,Life & Health Insurance
+CF,TRGP,-0.07862,cross-sector,Fertilizers & Agricultural Chemicals,Oil & Gas Storage & Transportation
+A,DHR,0.07768,same sub-industry,Life Sciences Tools & Services,Life Sciences Tools & Services
+CRH,LIN,0.0776,same sector,Construction Materials,Industrial Gases
+REGN,TT,0.07753,cross-sector,Biotechnology,Building Products
+GD,LMT,0.07751,same sub-industry,Aerospace & Defense,Aerospace & Defense
+AME,ROP,0.07741,cross-sector,Electrical Components & Equipment,Electronic Equipment & Instruments
+CHRW,JBHT,0.0773,same sector,Air Freight & Logistics,Cargo Ground Transportation
+AMP,SCHW,0.0773,same sector,Asset Management & Custody Banks,Investment Banking & Brokerage
+XYZ,PYPL,0.07725,same sub-industry,Transaction & Payment Processing Services,Transaction & Payment Processing Services
+KEY,PNC,0.07703,same sector,Regional Banks,Diversified Banks
+AEP,CHD,-0.077,cross-sector,Electric Utilities,Household Products
+BA,OMC,-0.07691,cross-sector,Aerospace & Defense,Advertising
+LNT,AEE,0.07679,same sector,Electric Utilities,Multi-Utilities
+AMP,RJF,0.07671,same sector,Asset Management & Custody Banks,Investment Banking & Brokerage
+PPG,SPG,-0.07663,cross-sector,Specialty Chemicals,Retail REITs
+EFX,FICO,0.07658,cross-sector,Research & Consulting Services,Application Software
+COST,INCY,-0.07643,cross-sector,Consumer Staples Merchandise Retail,Biotechnology
+GPN,MA,0.07641,same sub-industry,Transaction & Payment Processing Services,Transaction & Payment Processing Services
+MTD,TMO,0.07637,same sub-industry,Life Sciences Tools & Services,Life Sciences Tools & Services
+ADBE,CRM,0.07629,same sub-industry,Application Software,Application Software
+FANG,EOG,0.07621,same sub-industry,Oil & Gas Exploration & Production,Oil & Gas Exploration & Production
+SRE,UBER,-0.07612,cross-sector,Multi-Utilities,Passenger Ground Transportation
+IR,TT,0.07608,same sector,Industrial Machinery & Supplies & Components,Building Products
+KMI,OKE,0.076,same sub-industry,Oil & Gas Storage & Transportation,Oil & Gas Storage & Transportation
+FIX,FFIV,-0.07599,cross-sector,Construction & Engineering,Communications Equipment
+FSLR,GNRC,0.07596,cross-sector,Semiconductors,Heavy Electrical Equipment
+GILD,MRNA,0.07595,same sub-industry,Biotechnology,Biotechnology
+CCI,DLR,0.07594,same sector,Telecom Tower REITs,Data Center REITs
+MSCI,SPGI,0.07593,same sub-industry,Financial Exchanges & Data,Financial Exchanges & Data
+FOX,SKYD,0.07591,same sector,Broadcasting,Movies & Entertainment
+FITB,USB,0.0758,same sector,Regional Banks,Diversified Banks
+META,TSLA,-0.07574,cross-sector,Interactive Media & Services,Automobile Manufacturers
+FANG,EFX,0.07564,cross-sector,Oil & Gas Exploration & Production,Research & Consulting Services
+DDOG,VEEV,0.07545,cross-sector,Application Software,Health Care Technology
+STZ,FERG,0.07544,cross-sector,Distillers & Vintners,Trading Companies & Distributors
+HPQ,NTAP,0.07535,same sub-industry,"Technology Hardware, Storage & Peripherals","Technology Hardware, Storage & Peripherals"
+EL,ULTA,0.0752,cross-sector,Personal Care Products,Other Specialty Retail
+CPT,ESS,0.07515,same sub-industry,Multi-Family Residential REITs,Multi-Family Residential REITs
+HSY,PEP,0.07509,same sector,Packaged Foods & Meats,Soft Drinks & Non-alcoholic Beverages
+LRCX,MU,0.07499,same sector,Semiconductor Materials & Equipment,Semiconductors
+CMG,MCD,0.07488,same sub-industry,Restaurants,Restaurants
+PHM,WY,0.0748,cross-sector,Homebuilding,Timber REITs
+CME,NDAQ,0.07475,same sub-industry,Financial Exchanges & Data,Financial Exchanges & Data
+BXP,LLY,0.07468,cross-sector,Office REITs,Pharmaceuticals
+A,TECH,0.07465,same sub-industry,Life Sciences Tools & Services,Life Sciences Tools & Services
+MO,EXC,-0.07457,cross-sector,Tobacco,Electric Utilities
+LDOS,MOS,-0.07451,cross-sector,Diversified Support Services,Fertilizers & Agricultural Chemicals
+ANET,CRL,-0.0745,cross-sector,Communications Equipment,Life Sciences Tools & Services
+AEE,WEC,0.07425,same sector,Multi-Utilities,Electric Utilities
+HBAN,MTB,0.07417,same sub-industry,Regional Banks,Regional Banks
+CMI,ITW,0.07416,same sector,Construction Machinery & Heavy Transportation Equipment,Industrial Machinery & Supplies & Components
+IEX,IR,0.07415,same sub-industry,Industrial Machinery & Supplies & Components,Industrial Machinery & Supplies & Components
+TXT,TDG,0.07405,same sub-industry,Aerospace & Defense,Aerospace & Defense
+AMCR,IDXX,-0.07404,cross-sector,Paper & Plastic Packaging Products & Materials,Health Care Equipment
+CBOE,SRE,-0.074,cross-sector,Financial Exchanges & Data,Multi-Utilities
+FFIV,PNW,0.07379,cross-sector,Communications Equipment,Multi-Utilities
+HUBB,STX,-0.07372,cross-sector,Industrial Machinery & Supplies & Components,"Technology Hardware, Storage & Peripherals"
+ATO,CVS,-0.07369,cross-sector,Gas Utilities,Health Care Services
+DD,TRMB,-0.07367,cross-sector,Industrial Conglomerates,Application Software
+HWM,TDG,0.07365,same sub-industry,Aerospace & Defense,Aerospace & Defense
+GILD,IR,0.07359,cross-sector,Biotechnology,Industrial Machinery & Supplies & Components
+BDX,VRT,0.07348,cross-sector,Health Care Equipment,Electrical Components & Equipment
+AES,DTE,0.07337,same sector,Independent Power Producers & Energy Traders,Multi-Utilities
+DOW,DD,0.07335,cross-sector,Commodity Chemicals,Industrial Conglomerates
+DTE,EL,0.07328,cross-sector,Multi-Utilities,Personal Care Products
+APH,CDW,0.07315,same sector,Electronic Components,Technology Distributors
+GD,NOC,0.07313,same sub-industry,Aerospace & Defense,Aerospace & Defense
+ATO,CTAS,-0.07301,cross-sector,Gas Utilities,Diversified Support Services
+SRE,SO,0.07299,same sector,Multi-Utilities,Electric Utilities
+MSFT,TGT,-0.07297,cross-sector,Systems Software,Consumer Staples Merchandise Retail
+BKNG,HST,0.07292,cross-sector,"Hotels, Resorts & Cruise Lines",Hotel & Resort REITs
+AVY,CMG,0.07288,cross-sector,Paper & Plastic Packaging Products & Materials,Restaurants
+ITW,ROK,0.07282,same sector,Industrial Machinery & Supplies & Components,Electrical Components & Equipment
+AES,FSLR,0.07268,cross-sector,Independent Power Producers & Energy Traders,Semiconductors
+STZ,NEE,0.07268,cross-sector,Distillers & Vintners,Multi-Utilities
+NOW,WDAY,0.07266,same sector,Systems Software,Application Software
+DXCM,PFG,0.07259,cross-sector,Health Care Equipment,Life & Health Insurance
+CNC,HUM,0.07251,same sub-industry,Managed Health Care,Managed Health Care
+FISV,V,0.07244,same sub-industry,Transaction & Payment Processing Services,Transaction & Payment Processing Services
+AVY,CVNA,-0.07239,cross-sector,Paper & Plastic Packaging Products & Materials,Automotive Retail
+CNP,OKE,-0.07238,cross-sector,Multi-Utilities,Oil & Gas Storage & Transportation
+CFG,TFC,0.07226,same sector,Regional Banks,Diversified Banks
+ABBV,HRL,-0.07221,cross-sector,Biotechnology,Packaged Foods & Meats
+AME,GD,-0.072,same sector,Electrical Components & Equipment,Aerospace & Defense
+CPAY,ICE,-0.07191,same sector,Transaction & Payment Processing Services,Financial Exchanges & Data
+DHR,VZ,0.07185,cross-sector,Life Sciences Tools & Services,Integrated Telecommunication Services
+AAPL,BA,0.07185,cross-sector,"Technology Hardware, Storage & Peripherals",Aerospace & Defense
+AME,WAT,-0.07173,cross-sector,Electrical Components & Equipment,Life Sciences Tools & Services
+CI,CVS,0.07171,same sub-industry,Health Care Services,Health Care Services
+HCA,VICI,-0.0717,cross-sector,Health Care Facilities,Hotel & Resort REITs
+AME,IEX,0.07164,same sector,Electrical Components & Equipment,Industrial Machinery & Supplies & Components
+HII,LMT,0.07157,same sub-industry,Aerospace & Defense,Aerospace & Defense
+EQIX,PLD,0.07151,same sector,Data Center REITs,Industrial REITs
+NEM,WAB,0.07148,cross-sector,Gold,Construction Machinery & Heavy Transportation Equipment
+LRCX,TER,0.07144,same sub-industry,Semiconductor Materials & Equipment,Semiconductor Materials & Equipment
+DUK,SO,0.07143,same sub-industry,Electric Utilities,Electric Utilities
+SBUX,WSM,-0.07133,same sector,Restaurants,Homefurnishing Retail
+AES,O,-0.0713,cross-sector,Independent Power Producers & Energy Traders,Retail REITs
+DECK,WST,-0.07121,cross-sector,Footwear,Health Care Supplies
+FLEX,WAB,-0.07121,cross-sector,Electronic Manufacturing Services,Construction Machinery & Heavy Transportation Equipment
+CTSH,IBM,0.07118,same sub-industry,IT Consulting & Other Services,IT Consulting & Other Services
+CINF,WRB,0.07114,same sub-industry,Property & Casualty Insurance,Property & Casualty Insurance
+CBRE,LYV,-0.07113,cross-sector,Real Estate Services,Movies & Entertainment
+EIX,EXC,0.07112,same sub-industry,Electric Utilities,Electric Utilities
+CFG,PNC,0.07111,same sector,Regional Banks,Diversified Banks
+AWK,CME,-0.07098,cross-sector,Water Utilities,Financial Exchanges & Data
+KO,CMI,-0.07096,cross-sector,Soft Drinks & Non-alcoholic Beverages,Construction Machinery & Heavy Transportation Equipment
+APA,OXY,0.07092,same sub-industry,Oil & Gas Exploration & Production,Oil & Gas Exploration & Production
+ABBV,TTWO,-0.07091,cross-sector,Biotechnology,Interactive Home Entertainment
+FAST,ITW,0.07088,same sector,Trading Companies & Distributors,Industrial Machinery & Supplies & Components
+DHR,INCY,-0.07085,same sector,Life Sciences Tools & Services,Biotechnology
+BKR,PGR,-0.07085,cross-sector,Oil & Gas Equipment & Services,Property & Casualty Insurance
+HD,KDP,-0.0708,cross-sector,Home Improvement Retail,Soft Drinks & Non-alcoholic Beverages
+EFX,OMC,0.07067,cross-sector,Research & Consulting Services,Advertising
+ED,DUK,0.07066,same sector,Multi-Utilities,Electric Utilities
+CBOE,DOC,-0.07053,cross-sector,Financial Exchanges & Data,Health Care REITs
+KEY,TFC,0.07051,same sector,Regional Banks,Diversified Banks
+C,USB,0.07047,same sub-industry,Diversified Banks,Diversified Banks
+BMY,PGR,-0.07046,cross-sector,Pharmaceuticals,Property & Casualty Insurance
+KMI,TXT,-0.07041,cross-sector,Oil & Gas Storage & Transportation,Aerospace & Defense
+COO,NDAQ,-0.07039,cross-sector,Health Care Supplies,Financial Exchanges & Data
+GM,SHW,-0.07039,cross-sector,Automobile Manufacturers,Specialty Chemicals
+AWK,NEE,0.07039,same sector,Water Utilities,Multi-Utilities
+CSGP,CMI,0.07037,cross-sector,Real Estate Services,Construction Machinery & Heavy Transportation Equipment
+CMG,COO,-0.07032,cross-sector,Restaurants,Health Care Supplies
+DD,FCX,0.07014,cross-sector,Industrial Conglomerates,Copper
+PH,PNW,0.07004,cross-sector,Industrial Machinery & Supplies & Components,Multi-Utilities
+A,CIEN,-0.07001,cross-sector,Life Sciences Tools & Services,Communications Equipment
+PODD,MRSH,-0.06999,cross-sector,Health Care Equipment,Insurance Brokers
+EXPD,TXT,-0.06996,same sector,Air Freight & Logistics,Aerospace & Defense
+ADBE,GIS,-0.06996,cross-sector,Application Software,Packaged Foods & Meats
+CVX,TRGP,-0.06995,same sector,Integrated Oil & Gas,Oil & Gas Storage & Transportation
+MDLZ,SJM,0.06995,same sub-industry,Packaged Foods & Meats,Packaged Foods & Meats
+D,HSIC,-0.06994,cross-sector,Multi-Utilities,Health Care Distributors
+HST,JCI,-0.06994,cross-sector,Hotel & Resort REITs,Building Products
+FISV,MA,0.06988,same sub-industry,Transaction & Payment Processing Services,Transaction & Payment Processing Services
+ARE,PLD,0.06988,same sector,Office REITs,Industrial REITs
+AAPL,CRL,-0.06984,cross-sector,"Technology Hardware, Storage & Peripherals",Life Sciences Tools & Services
+DOV,IR,0.0698,same sub-industry,Industrial Machinery & Supplies & Components,Industrial Machinery & Supplies & Components
+KHC,WY,0.06972,cross-sector,Packaged Foods & Meats,Timber REITs
+FRT,SYY,-0.06971,cross-sector,Retail REITs,Food Distributors
+XYZ,COST,-0.0697,cross-sector,Transaction & Payment Processing Services,Consumer Staples Merchandise Retail
+DDOG,NOW,0.0696,same sector,Application Software,Systems Software
+CNC,LDOS,-0.06959,cross-sector,Managed Health Care,Diversified Support Services
+LDOS,LMT,0.06957,same sector,Diversified Support Services,Aerospace & Defense
+EXPD,FDX,0.06954,same sub-industry,Air Freight & Logistics,Air Freight & Logistics
+CPT,KO,-0.06952,cross-sector,Multi-Family Residential REITs,Soft Drinks & Non-alcoholic Beverages
+GRMN,SHW,0.06949,cross-sector,Consumer Electronics,Specialty Chemicals
+LOW,PNR,0.06948,cross-sector,Home Improvement Retail,Industrial Machinery & Supplies & Components
+MAS,PHM,0.06944,cross-sector,Building Products,Homebuilding
+MNST,NFLX,-0.06944,cross-sector,Soft Drinks & Non-alcoholic Beverages,Movies & Entertainment
+BLK,BEN,0.0694,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+AAPL,QCOM,0.0694,same sector,"Technology Hardware, Storage & Peripherals",Semiconductors
+EW,TMUS,-0.06939,cross-sector,Health Care Equipment,Wireless Telecommunication Services
+DTE,RL,-0.06937,cross-sector,Multi-Utilities,"Apparel, Accessories & Luxury Goods"
+GDDY,SKYD,0.06936,cross-sector,Internet Services & Infrastructure,Movies & Entertainment
+DECK,LULU,0.06935,same sector,Footwear,"Apparel, Accessories & Luxury Goods"
+PTC,VRSN,-0.06935,same sector,Application Software,Internet Services & Infrastructure
+CSCO,HPE,0.06926,same sector,Communications Equipment,"Technology Hardware, Storage & Peripherals"
+KHC,MKC,0.0692,same sub-industry,Packaged Foods & Meats,Packaged Foods & Meats
+CVX,ED,0.0691,cross-sector,Integrated Oil & Gas,Multi-Utilities
+A,TMO,0.06897,same sub-industry,Life Sciences Tools & Services,Life Sciences Tools & Services
+FCX,STLD,0.06892,same sector,Copper,Steel
+IDXX,CRM,-0.06891,cross-sector,Health Care Equipment,Application Software
+AIG,CASY,-0.0689,cross-sector,Multi-line Insurance,Food Retail
+HSIC,MSI,-0.06888,cross-sector,Health Care Distributors,Communications Equipment
+MOS,PSA,0.06888,cross-sector,Fertilizers & Agricultural Chemicals,Self-Storage REITs
+CPAY,PPL,-0.06886,cross-sector,Transaction & Payment Processing Services,Electric Utilities
+GOOG,MSFT,0.06883,cross-sector,Interactive Media & Services,Systems Software
+CAT,DOW,0.06883,cross-sector,Construction Machinery & Heavy Transportation Equipment,Commodity Chemicals
+FDS,NDAQ,0.06875,same sub-industry,Financial Exchanges & Data,Financial Exchanges & Data
+APO,WTW,0.06874,same sector,Asset Management & Custody Banks,Insurance Brokers
+ABBV,LNT,-0.06873,cross-sector,Biotechnology,Electric Utilities
+MDLZ,TSN,0.06871,same sub-industry,Packaged Foods & Meats,Packaged Foods & Meats
+EIX,SRE,0.0687,same sector,Electric Utilities,Multi-Utilities
+GIS,HSY,0.06867,same sub-industry,Packaged Foods & Meats,Packaged Foods & Meats
+CVNA,HST,-0.06859,cross-sector,Automotive Retail,Hotel & Resort REITs
+ABBV,ROL,-0.06851,cross-sector,Biotechnology,Environmental & Facilities Services
+BSX,CINF,-0.0685,cross-sector,Health Care Equipment,Property & Casualty Insurance
+DD,IFF,0.06846,cross-sector,Industrial Conglomerates,Specialty Chemicals
+EQT,HCA,0.06842,cross-sector,Oil & Gas Exploration & Production,Health Care Facilities
+IRM,SPG,0.06822,same sector,Other Specialized REITs,Retail REITs
+FSLR,NEE,0.06821,cross-sector,Semiconductors,Multi-Utilities
+STZ,IRM,-0.0682,cross-sector,Distillers & Vintners,Other Specialized REITs
+ATO,DOC,-0.06812,cross-sector,Gas Utilities,Health Care REITs
+PPG,TEL,0.06812,cross-sector,Specialty Chemicals,Electronic Manufacturing Services
+BSX,EW,0.06809,same sub-industry,Health Care Equipment,Health Care Equipment
+CAT,URI,0.06805,same sector,Construction Machinery & Heavy Transportation Equipment,Trading Companies & Distributors
+APA,EBAY,0.06798,cross-sector,Oil & Gas Exploration & Production,Broadline Retail
+FTV,XYL,0.06798,same sub-industry,Industrial Machinery & Supplies & Components,Industrial Machinery & Supplies & Components
+LOW,WSM,0.06797,same sector,Home Improvement Retail,Homefurnishing Retail
+CVX,VTRS,-0.06792,cross-sector,Integrated Oil & Gas,Pharmaceuticals
+ESS,KIM,-0.06785,same sector,Multi-Family Residential REITs,Retail REITs
+COO,WAT,0.06784,same sector,Health Care Supplies,Life Sciences Tools & Services
+BALL,EBAY,0.06782,cross-sector,"Metal, Glass & Plastic Containers",Broadline Retail
+INVH,VMRK,0.06781,same sector,Single-Family Residential REITs,Multi-Family Residential REITs
+CF,TDG,-0.0678,cross-sector,Fertilizers & Agricultural Chemicals,Aerospace & Defense
+JBHT,WSM,0.06779,cross-sector,Cargo Ground Transportation,Homefurnishing Retail
+CSGP,SPGI,0.06768,cross-sector,Real Estate Services,Financial Exchanges & Data
+EME,J,0.06757,same sub-industry,Construction & Engineering,Construction & Engineering
+AMZN,NXPI,-0.06757,cross-sector,Broadline Retail,Semiconductors
+CB,MSI,-0.06753,cross-sector,Property & Casualty Insurance,Communications Equipment
+DOW,EQT,-0.06753,cross-sector,Commodity Chemicals,Oil & Gas Exploration & Production
+AXON,VMC,-0.06752,cross-sector,Aerospace & Defense,Construction Materials
+MO,LYV,0.06735,cross-sector,Tobacco,Movies & Entertainment
+BF-B,EVRG,-0.06735,cross-sector,Distillers & Vintners,Electric Utilities
+AMCR,SHW,0.06732,same sector,Paper & Plastic Packaging Products & Materials,Specialty Chemicals
+TMUS,VZ,0.06731,same sector,Wireless Telecommunication Services,Integrated Telecommunication Services
+BX,NDSN,0.0673,cross-sector,Asset Management & Custody Banks,Industrial Machinery & Supplies & Components
+MCD,TSCO,-0.0673,same sector,Restaurants,Other Specialty Retail
+ACN,MU,-0.06729,same sector,IT Consulting & Other Services,Semiconductors
+DECK,PFG,-0.06728,cross-sector,Footwear,Life & Health Insurance
+GDDY,TKO,0.06728,cross-sector,Internet Services & Infrastructure,Movies & Entertainment
+CAT,WFC,-0.06725,cross-sector,Construction Machinery & Heavy Transportation Equipment,Diversified Banks
+DDOG,ON,-0.06715,same sector,Application Software,Semiconductors
+ALGN,APTV,-0.06709,cross-sector,Health Care Supplies,Automotive Parts & Equipment
+LH,WST,0.06706,same sector,Health Care Services,Health Care Supplies
+CPAY,DD,-0.06693,cross-sector,Transaction & Payment Processing Services,Industrial Conglomerates
+RL,STT,-0.06693,cross-sector,"Apparel, Accessories & Luxury Goods",Asset Management & Custody Banks
+MPWR,SPGI,-0.06691,cross-sector,Semiconductors,Financial Exchanges & Data
+INTU,JBHT,-0.06689,cross-sector,Application Software,Cargo Ground Transportation
+GEN,PTC,0.06685,same sector,Systems Software,Application Software
+TJX,WMT,0.06685,cross-sector,Apparel Retail,Consumer Staples Merchandise Retail
+EXR,PCG,-0.0668,cross-sector,Self-Storage REITs,Multi-Utilities
+CMG,GE,-0.06678,cross-sector,Restaurants,Aerospace & Defense
+EVRG,PNW,0.06677,same sector,Electric Utilities,Multi-Utilities
+ULTA,WMT,0.06676,cross-sector,Other Specialty Retail,Consumer Staples Merchandise Retail
+BA,DE,0.06675,same sector,Aerospace & Defense,Agricultural & Farm Machinery
+FFIV,SHW,-0.06674,cross-sector,Communications Equipment,Specialty Chemicals
+MO,VRT,0.06671,cross-sector,Tobacco,Electrical Components & Equipment
+PM,RSG,-0.06669,cross-sector,Tobacco,Environmental & Facilities Services
+EQT,PWR,0.06667,cross-sector,Oil & Gas Exploration & Production,Construction & Engineering
+INTU,NOW,0.06667,same sector,Application Software,Systems Software
+RJF,NOW,0.06663,cross-sector,Investment Banking & Brokerage,Systems Software
+ALLE,WELL,-0.06659,cross-sector,Building Products,Health Care REITs
+GDDY,TSLA,-0.06647,cross-sector,Internet Services & Infrastructure,Automobile Manufacturers
+ES,XEL,0.06646,same sector,Electric Utilities,Multi-Utilities
+EL,TPR,0.06641,cross-sector,Personal Care Products,"Apparel, Accessories & Luxury Goods"
+ADBE,ECHO,-0.06637,cross-sector,Application Software,Wireless Telecommunication Services
+ECHO,MRK,0.06637,cross-sector,Wireless Telecommunication Services,Pharmaceuticals
+FDS,MCO,0.06635,same sub-industry,Financial Exchanges & Data,Financial Exchanges & Data
+APTV,FISV,-0.06628,cross-sector,Automotive Parts & Equipment,Transaction & Payment Processing Services
+BLK,DDOG,-0.06625,cross-sector,Asset Management & Custody Banks,Application Software
+MAA,SRE,-0.06623,cross-sector,Multi-Family Residential REITs,Multi-Utilities
+PODD,ISRG,0.06617,same sub-industry,Health Care Equipment,Health Care Equipment
+CNP,PH,0.06617,cross-sector,Multi-Utilities,Industrial Machinery & Supplies & Components
+AME,PH,0.06617,same sector,Electrical Components & Equipment,Industrial Machinery & Supplies & Components
+NI,NVDA,0.06611,cross-sector,Multi-Utilities,Semiconductors
+TFC,USB,0.0661,same sub-industry,Diversified Banks,Diversified Banks
+DRI,VRT,-0.0661,cross-sector,Restaurants,Electrical Components & Equipment
+ABT,DXCM,0.06608,same sub-industry,Health Care Equipment,Health Care Equipment
+SWK,URI,-0.06608,same sector,Industrial Machinery & Supplies & Components,Trading Companies & Distributors
+CLX,ICE,-0.06606,cross-sector,Household Products,Financial Exchanges & Data
+AJG,CMCSA,-0.06604,cross-sector,Insurance Brokers,Cable & Satellite
+FISV,JCI,-0.06602,cross-sector,Transaction & Payment Processing Services,Building Products
+AES,ARES,0.06599,cross-sector,Independent Power Producers & Energy Traders,Asset Management & Custody Banks
+JCI,PEG,0.06594,cross-sector,Building Products,Electric Utilities
+CBRE,L,0.06587,cross-sector,Real Estate Services,Multi-line Insurance
+SMCI,VRT,0.06585,cross-sector,"Technology Hardware, Storage & Peripherals",Electrical Components & Equipment
+ATO,LUV,-0.06578,cross-sector,Gas Utilities,Passenger Airlines
+CTAS,ROL,0.06578,same sector,Diversified Support Services,Environmental & Facilities Services
+MMM,HON,0.06572,same sub-industry,Industrial Conglomerates,Industrial Conglomerates
+JNJ,MRK,0.0657,same sub-industry,Pharmaceuticals,Pharmaceuticals
+JKHY,MET,0.06568,same sector,Transaction & Payment Processing Services,Life & Health Insurance
+EG,MCO,-0.06567,same sector,Reinsurance,Financial Exchanges & Data
+CNC,CI,0.06562,same sector,Managed Health Care,Health Care Services
+BAX,DXCM,0.06552,same sub-industry,Health Care Equipment,Health Care Equipment
+TECH,GWW,-0.06537,cross-sector,Life Sciences Tools & Services,Industrial Machinery & Supplies & Components
+A,RVTY,0.06536,same sector,Life Sciences Tools & Services,Health Care Equipment
+MPWR,ZBRA,-0.06535,same sector,Semiconductors,Electronic Equipment & Instruments
+NKE,RL,0.06533,same sub-industry,"Apparel, Accessories & Luxury Goods","Apparel, Accessories & Luxury Goods"
+EVRG,ROL,-0.0653,cross-sector,Electric Utilities,Environmental & Facilities Services
+D,DUK,0.06527,same sector,Multi-Utilities,Electric Utilities
+JPM,SYF,0.06525,same sector,Diversified Banks,Consumer Finance
+NI,SBAC,-0.06519,cross-sector,Multi-Utilities,Telecom Tower REITs
+TXN,TXT,-0.06516,cross-sector,Semiconductors,Aerospace & Defense
+AFL,PFG,0.06506,same sub-industry,Life & Health Insurance,Life & Health Insurance
+DTE,INVH,-0.06506,cross-sector,Multi-Utilities,Single-Family Residential REITs
+ES,SJM,-0.06505,cross-sector,Electric Utilities,Packaged Foods & Meats
+EME,ON,-0.06498,cross-sector,Construction & Engineering,Semiconductors
+SJM,TGT,-0.06494,same sector,Packaged Foods & Meats,Consumer Staples Merchandise Retail
+AVY,CF,0.06492,same sector,Paper & Plastic Packaging Products & Materials,Fertilizers & Agricultural Chemicals
+AMP,PH,0.06491,cross-sector,Asset Management & Custody Banks,Industrial Machinery & Supplies & Components
+BLK,TDG,0.06487,cross-sector,Asset Management & Custody Banks,Aerospace & Defense
+HII,NOC,0.06484,same sub-industry,Aerospace & Defense,Aerospace & Defense
+APD,WST,-0.06479,cross-sector,Industrial Gases,Health Care Supplies
+ETR,GEN,0.06475,cross-sector,Electric Utilities,Systems Software
+AVGO,MU,0.06465,same sub-industry,Semiconductors,Semiconductors
+ALLE,OKE,0.06464,cross-sector,Building Products,Oil & Gas Storage & Transportation
+ABT,PTC,0.06463,cross-sector,Health Care Equipment,Application Software
+AES,LYV,-0.06463,cross-sector,Independent Power Producers & Energy Traders,Movies & Entertainment
+ABT,TMO,0.06463,same sector,Health Care Equipment,Life Sciences Tools & Services
+IT,UBER,0.06459,cross-sector,IT Consulting & Other Services,Passenger Ground Transportation
+FIX,JNJ,-0.06456,cross-sector,Construction & Engineering,Pharmaceuticals
+O,VICI,0.06456,same sector,Retail REITs,Hotel & Resort REITs
+ATO,ERIE,-0.06455,cross-sector,Gas Utilities,Insurance Brokers
+REG,SPG,0.06455,same sub-industry,Retail REITs,Retail REITs
+CRH,GNRC,-0.06445,cross-sector,Construction Materials,Heavy Electrical Equipment
+CBRE,ROL,-0.06442,cross-sector,Real Estate Services,Environmental & Facilities Services
+CRH,MU,-0.06442,cross-sector,Construction Materials,Semiconductors
+CPAY,MTD,-0.06426,cross-sector,Transaction & Payment Processing Services,Life Sciences Tools & Services
+BLK,IVZ,0.06423,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+FLEX,JBHT,-0.06421,cross-sector,Electronic Manufacturing Services,Cargo Ground Transportation
+XYL,ZBRA,-0.0642,cross-sector,Industrial Machinery & Supplies & Components,Electronic Equipment & Instruments
+DHR,WST,0.0641,same sector,Life Sciences Tools & Services,Health Care Supplies
+BRK-B,L,0.06409,same sector,Multi-Sector Holdings,Multi-line Insurance
+CHRW,UPS,0.06407,same sub-industry,Air Freight & Logistics,Air Freight & Logistics
+CHD,PEG,0.06406,cross-sector,Household Products,Electric Utilities
+IT,LDOS,-0.06406,cross-sector,IT Consulting & Other Services,Diversified Support Services
+DXCM,ZTS,-0.06406,same sector,Health Care Equipment,Pharmaceuticals
+EMR,YUM,0.06402,cross-sector,Electrical Components & Equipment,Restaurants
+TECH,WEC,-0.06398,cross-sector,Life Sciences Tools & Services,Electric Utilities
+AMZN,NFLX,0.06397,cross-sector,Broadline Retail,Movies & Entertainment
+GIS,MDLZ,0.06396,same sub-industry,Packaged Foods & Meats,Packaged Foods & Meats
+NTAP,STX,0.06393,same sub-industry,"Technology Hardware, Storage & Peripherals","Technology Hardware, Storage & Peripherals"
+RMD,TXT,0.06392,cross-sector,Health Care Equipment,Aerospace & Defense
+ALB,ICE,-0.06387,cross-sector,Specialty Chemicals,Financial Exchanges & Data
+MLM,UBER,-0.06386,cross-sector,Construction Materials,Passenger Ground Transportation
+PNW,ZTS,-0.06383,cross-sector,Multi-Utilities,Pharmaceuticals
+CBOE,SKYD,-0.06382,cross-sector,Financial Exchanges & Data,Movies & Entertainment
+SCHW,CINF,-0.0638,same sector,Investment Banking & Brokerage,Property & Casualty Insurance
+D,VTR,-0.0638,cross-sector,Multi-Utilities,Health Care REITs
+PEP,ZTS,-0.06379,cross-sector,Soft Drinks & Non-alcoholic Beverages,Pharmaceuticals
+CBOE,DTE,-0.06379,cross-sector,Financial Exchanges & Data,Multi-Utilities
+MCO,TRMB,-0.06378,cross-sector,Financial Exchanges & Data,Application Software
+KEYS,MRSH,0.06376,cross-sector,Electronic Equipment & Instruments,Insurance Brokers
+FANG,HAL,0.06376,same sector,Oil & Gas Exploration & Production,Oil & Gas Equipment & Services
+AXON,GE,0.06373,same sub-industry,Aerospace & Defense,Aerospace & Defense
+IEX,GWW,0.06371,same sub-industry,Industrial Machinery & Supplies & Components,Industrial Machinery & Supplies & Components
+COO,STE,0.0637,same sector,Health Care Supplies,Health Care Equipment
+KEYS,NDSN,0.06368,cross-sector,Electronic Equipment & Instruments,Industrial Machinery & Supplies & Components
+BALL,IDXX,0.06367,cross-sector,"Metal, Glass & Plastic Containers",Health Care Equipment
+ALGN,LLY,-0.06365,same sector,Health Care Supplies,Pharmaceuticals
+JCI,LII,0.06365,same sub-industry,Building Products,Building Products
+P,FTV,-0.06363,cross-sector,"Technology Hardware, Storage & Peripherals",Industrial Machinery & Supplies & Components
+CMG,PEG,0.06362,cross-sector,Restaurants,Electric Utilities
+AMCR,AEP,-0.06361,cross-sector,Paper & Plastic Packaging Products & Materials,Electric Utilities
+ADI,MPWR,0.06359,same sub-industry,Semiconductors,Semiconductors
+KMI,TRGP,0.06356,same sub-industry,Oil & Gas Storage & Transportation,Oil & Gas Storage & Transportation
+CBOE,PNW,-0.06354,cross-sector,Financial Exchanges & Data,Multi-Utilities
+KDP,UBER,-0.06352,cross-sector,Soft Drinks & Non-alcoholic Beverages,Passenger Ground Transportation
+COR,EMR,-0.06348,cross-sector,Health Care Distributors,Electrical Components & Equipment
+ECL,SRE,-0.06343,cross-sector,Specialty Chemicals,Multi-Utilities
+CNP,ETR,0.06342,same sector,Multi-Utilities,Electric Utilities
+BAX,VRSK,-0.06335,cross-sector,Health Care Equipment,Research & Consulting Services
+ANET,CSCO,0.06334,same sub-industry,Communications Equipment,Communications Equipment
+CSGP,LYV,0.06333,cross-sector,Real Estate Services,Movies & Entertainment
+ACN,TPR,-0.06328,cross-sector,IT Consulting & Other Services,"Apparel, Accessories & Luxury Goods"
+EBAY,IBM,-0.06326,cross-sector,Broadline Retail,IT Consulting & Other Services
+LOW,MAS,0.06321,cross-sector,Home Improvement Retail,Building Products
+ADBE,NOW,0.06315,same sector,Application Software,Systems Software
+HUBB,ZBH,-0.06314,cross-sector,Industrial Machinery & Supplies & Components,Health Care Equipment
+MRK,ROST,0.06314,cross-sector,Pharmaceuticals,Apparel Retail
+APO,EOG,-0.06314,cross-sector,Asset Management & Custody Banks,Oil & Gas Exploration & Production
+JNJ,ZBH,0.06312,same sector,Pharmaceuticals,Health Care Equipment
+FIX,WDAY,-0.06308,cross-sector,Construction & Engineering,Application Software
+ABT,BSX,0.06307,same sub-industry,Health Care Equipment,Health Care Equipment
+ED,MTD,-0.06307,cross-sector,Multi-Utilities,Life Sciences Tools & Services
+MO,GEN,0.06306,cross-sector,Tobacco,Systems Software
+ANET,QCOM,-0.06306,same sector,Communications Equipment,Semiconductors
+APH,IBKR,-0.06305,cross-sector,Electronic Components,Investment Banking & Brokerage
+ISRG,WSM,-0.06303,cross-sector,Health Care Equipment,Homefurnishing Retail
+ORCL,VRTX,-0.06301,cross-sector,Application Software,Biotechnology
+CPT,COHR,0.063,cross-sector,Multi-Family Residential REITs,Electronic Components
+HUBB,LIN,-0.06296,cross-sector,Industrial Machinery & Supplies & Components,Industrial Gases
+HBAN,TSLA,0.06296,cross-sector,Regional Banks,Automobile Manufacturers
+LULU,ZBRA,-0.06291,cross-sector,"Apparel, Accessories & Luxury Goods",Electronic Equipment & Instruments
+RVTY,TTWO,-0.0629,cross-sector,Health Care Equipment,Interactive Home Entertainment
+BSX,REGN,0.06289,same sector,Health Care Equipment,Biotechnology
+ORCL,SWKS,-0.06289,same sector,Application Software,Semiconductors
+AOS,MTB,-0.06288,cross-sector,Building Products,Regional Banks
+MCO,TSCO,-0.06281,cross-sector,Financial Exchanges & Data,Other Specialty Retail
+WEC,XEL,0.06277,same sector,Electric Utilities,Multi-Utilities
+DRI,MSCI,-0.06277,cross-sector,Restaurants,Financial Exchanges & Data
+DRI,SPG,0.06275,cross-sector,Restaurants,Retail REITs
+AEE,CMS,0.06274,same sub-industry,Multi-Utilities,Multi-Utilities
+CCL,YUM,-0.06271,same sector,"Hotels, Resorts & Cruise Lines",Restaurants
+AEE,FTV,-0.0627,cross-sector,Multi-Utilities,Industrial Machinery & Supplies & Components
+CF,FANG,-0.0627,cross-sector,Fertilizers & Agricultural Chemicals,Oil & Gas Exploration & Production
+ARE,O,0.0626,same sector,Office REITs,Retail REITs
+MNST,WMT,-0.06258,same sector,Soft Drinks & Non-alcoholic Beverages,Consumer Staples Merchandise Retail
+GLW,IQV,-0.06255,cross-sector,Electronic Components,Life Sciences Tools & Services
+T,CMCSA,0.06251,same sector,Integrated Telecommunication Services,Cable & Satellite
+HII,ICE,0.06249,cross-sector,Aerospace & Defense,Financial Exchanges & Data
+BX,NI,0.06249,cross-sector,Asset Management & Custody Banks,Multi-Utilities
+BLK,DVA,-0.06248,cross-sector,Asset Management & Custody Banks,Health Care Services
+GD,MSCI,-0.06247,cross-sector,Aerospace & Defense,Financial Exchanges & Data
+ACN,FDS,0.06244,cross-sector,IT Consulting & Other Services,Financial Exchanges & Data
+OXY,SLB,-0.06243,same sector,Oil & Gas Exploration & Production,Oil & Gas Equipment & Services
+CVX,MSCI,0.06242,cross-sector,Integrated Oil & Gas,Financial Exchanges & Data
+KDP,MNST,0.06242,same sub-industry,Soft Drinks & Non-alcoholic Beverages,Soft Drinks & Non-alcoholic Beverages
+CASY,PPG,-0.06241,cross-sector,Food Retail,Specialty Chemicals
+FLEX,TGT,-0.06239,cross-sector,Electronic Manufacturing Services,Consumer Staples Merchandise Retail
+DHR,IBM,-0.06236,cross-sector,Life Sciences Tools & Services,IT Consulting & Other Services
+BX,TROW,0.06235,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+HWM,REGN,0.06234,cross-sector,Aerospace & Defense,Biotechnology
+CIEN,COST,-0.06234,cross-sector,Communications Equipment,Consumer Staples Merchandise Retail
+BBY,CVNA,0.06233,same sector,Computer & Electronics Retail,Automotive Retail
+BEN,ORCL,-0.06233,cross-sector,Asset Management & Custody Banks,Application Software
+ACN,BR,0.06233,cross-sector,IT Consulting & Other Services,Data Processing & Outsourced Services
+FLEX,SPGI,-0.06232,cross-sector,Electronic Manufacturing Services,Financial Exchanges & Data
+FICO,NSC,0.06232,cross-sector,Application Software,Rail Transportation
+CHRW,GE,-0.06231,same sector,Air Freight & Logistics,Aerospace & Defense
+PSX,TDG,-0.0623,cross-sector,Oil & Gas Refining & Marketing,Aerospace & Defense
+FANG,OXY,0.06226,same sub-industry,Oil & Gas Exploration & Production,Oil & Gas Exploration & Production
+MRVL,NVDA,0.06225,same sub-industry,Semiconductors,Semiconductors
+NVR,TYL,-0.06224,cross-sector,Homebuilding,Application Software
+XOM,TRGP,-0.06219,same sector,Integrated Oil & Gas,Oil & Gas Storage & Transportation
+NEE,YUM,-0.06218,cross-sector,Multi-Utilities,Restaurants
+CAT,UHS,0.06218,cross-sector,Construction Machinery & Heavy Transportation Equipment,Health Care Facilities
+OKE,WMB,0.06216,same sub-industry,Oil & Gas Storage & Transportation,Oil & Gas Storage & Transportation
+ELV,TRMB,-0.06215,cross-sector,Managed Health Care,Application Software
+CASY,CINF,0.06213,cross-sector,Food Retail,Property & Casualty Insurance
+SNA,SWK,0.06208,same sub-industry,Industrial Machinery & Supplies & Components,Industrial Machinery & Supplies & Components
+CSGP,NVDA,-0.06207,cross-sector,Real Estate Services,Semiconductors
+CTAS,VRSK,0.06205,same sector,Diversified Support Services,Research & Consulting Services
+XYZ,ULTA,-0.06204,cross-sector,Transaction & Payment Processing Services,Other Specialty Retail
+INTU,CRM,0.06203,same sub-industry,Application Software,Application Software
+TECH,MSI,-0.06201,cross-sector,Life Sciences Tools & Services,Communications Equipment
+CB,L,0.06201,same sector,Property & Casualty Insurance,Multi-line Insurance
+EIX,INVH,-0.062,cross-sector,Electric Utilities,Single-Family Residential REITs
+NDAQ,TROW,0.06199,same sector,Financial Exchanges & Data,Asset Management & Custody Banks
+COST,HRL,-0.06197,same sector,Consumer Staples Merchandise Retail,Packaged Foods & Meats
+MDLZ,ODFL,0.06197,cross-sector,Packaged Foods & Meats,Cargo Ground Transportation
+IBM,PYPL,-0.06197,cross-sector,IT Consulting & Other Services,Transaction & Payment Processing Services
+NFLX,DIS,0.06194,same sub-industry,Movies & Entertainment,Movies & Entertainment
+BBY,TRMB,-0.06192,cross-sector,Computer & Electronics Retail,Application Software
+COP,XOM,0.06192,same sector,Oil & Gas Exploration & Production,Integrated Oil & Gas
+ESS,MAA,0.06192,same sub-industry,Multi-Family Residential REITs,Multi-Family Residential REITs
+DVN,TSN,-0.06188,cross-sector,Oil & Gas Exploration & Production,Packaged Foods & Meats
+LMT,RTX,0.06188,same sub-industry,Aerospace & Defense,Aerospace & Defense
+AMT,EQIX,0.06188,same sector,Telecom Tower REITs,Data Center REITs
+CRL,VRSK,-0.06187,cross-sector,Life Sciences Tools & Services,Research & Consulting Services
+CL,SMCI,0.06186,cross-sector,Household Products,"Technology Hardware, Storage & Peripherals"
+AMD,IBM,0.06182,same sector,Semiconductors,IT Consulting & Other Services
+HAS,TDG,-0.06182,cross-sector,Leisure Products,Aerospace & Defense
+HON,TER,0.06179,cross-sector,Industrial Conglomerates,Semiconductor Materials & Equipment
+NOW,SKYD,-0.06174,cross-sector,Systems Software,Movies & Entertainment
+ESS,MCD,-0.06173,cross-sector,Multi-Family Residential REITs,Restaurants
+TSCO,GWW,0.06171,cross-sector,Other Specialty Retail,Industrial Machinery & Supplies & Components
+IQV,TMO,0.06166,same sub-industry,Life Sciences Tools & Services,Life Sciences Tools & Services
+ABT,NFLX,-0.06163,cross-sector,Health Care Equipment,Movies & Entertainment
+LHX,RTX,0.06163,same sub-industry,Aerospace & Defense,Aerospace & Defense
+CHD,XOM,-0.06163,cross-sector,Household Products,Integrated Oil & Gas
+HUBB,RMD,0.06162,cross-sector,Industrial Machinery & Supplies & Components,Health Care Equipment
+CAT,MPC,-0.06162,cross-sector,Construction Machinery & Heavy Transportation Equipment,Oil & Gas Refining & Marketing
+EL,SBUX,0.06161,cross-sector,Personal Care Products,Restaurants
+NOW,WAB,0.06161,cross-sector,Systems Software,Construction Machinery & Heavy Transportation Equipment
+KO,LIN,0.06158,cross-sector,Soft Drinks & Non-alcoholic Beverages,Industrial Gases
+CBRE,GEN,0.06158,cross-sector,Real Estate Services,Systems Software
+AOS,LII,0.06157,same sub-industry,Building Products,Building Products
+TT,XYL,0.06156,same sector,Building Products,Industrial Machinery & Supplies & Components
+EBAY,L,-0.06155,cross-sector,Broadline Retail,Multi-line Insurance
+PEG,ULTA,-0.06149,cross-sector,Electric Utilities,Other Specialty Retail
+APH,EME,0.06147,cross-sector,Electronic Components,Construction & Engineering
+PPL,PLD,-0.06147,cross-sector,Electric Utilities,Industrial REITs
+XYZ,MNST,0.06147,cross-sector,Transaction & Payment Processing Services,Soft Drinks & Non-alcoholic Beverages
+FE,PEG,0.06138,same sub-industry,Electric Utilities,Electric Utilities
+BAX,MDT,0.06136,same sub-industry,Health Care Equipment,Health Care Equipment
+CL,UHS,0.06135,cross-sector,Household Products,Health Care Facilities
+IT,RTX,-0.06134,cross-sector,IT Consulting & Other Services,Aerospace & Defense
+CTAS,EFX,0.06133,same sector,Diversified Support Services,Research & Consulting Services
+NDSN,NOC,-0.06127,same sector,Industrial Machinery & Supplies & Components,Aerospace & Defense
+CASY,CMG,0.06126,cross-sector,Food Retail,Restaurants
+PTC,SKYD,-0.06126,cross-sector,Application Software,Movies & Entertainment
+AXON,FTNT,0.06125,cross-sector,Aerospace & Defense,Systems Software
+PCAR,RTX,0.06124,same sector,Construction Machinery & Heavy Transportation Equipment,Aerospace & Defense
+CBOE,IBKR,0.06123,same sector,Financial Exchanges & Data,Investment Banking & Brokerage
+DRI,FDS,0.06123,cross-sector,Restaurants,Financial Exchanges & Data
+OKE,VLO,-0.06121,same sector,Oil & Gas Storage & Transportation,Oil & Gas Refining & Marketing
+CTSH,KMB,-0.06119,cross-sector,IT Consulting & Other Services,Household Products
+ETR,PNW,0.06116,same sector,Electric Utilities,Multi-Utilities
+T,TMUS,0.06116,same sector,Integrated Telecommunication Services,Wireless Telecommunication Services
+MRK,PFE,0.06116,same sub-industry,Pharmaceuticals,Pharmaceuticals
+CDW,NVDA,-0.06114,same sector,Technology Distributors,Semiconductors
+BKNG,CSGP,-0.06109,cross-sector,"Hotels, Resorts & Cruise Lines",Real Estate Services
+VRT,WDAY,-0.06108,cross-sector,Electrical Components & Equipment,Application Software
+FISV,LUV,-0.06107,cross-sector,Transaction & Payment Processing Services,Passenger Airlines
+ITW,USB,-0.06106,cross-sector,Industrial Machinery & Supplies & Components,Diversified Banks
+XYZ,CVNA,0.06104,cross-sector,Transaction & Payment Processing Services,Automotive Retail
+MRVL,PH,-0.06101,cross-sector,Semiconductors,Industrial Machinery & Supplies & Components
+AAPL,BRK-B,0.06101,cross-sector,"Technology Hardware, Storage & Peripherals",Multi-Sector Holdings
+NDAQ,UNP,-0.06101,cross-sector,Financial Exchanges & Data,Rail Transportation
+GNRC,REGN,-0.06099,cross-sector,Heavy Electrical Equipment,Biotechnology
+CL,GD,-0.06099,cross-sector,Household Products,Aerospace & Defense
+CRH,LYV,-0.06098,cross-sector,Construction Materials,Movies & Entertainment
+CSCO,DDOG,-0.06098,same sector,Communications Equipment,Application Software
+CMI,GIS,0.06092,cross-sector,Construction Machinery & Heavy Transportation Equipment,Packaged Foods & Meats
+AME,EMR,0.06089,same sub-industry,Electrical Components & Equipment,Electrical Components & Equipment
+AME,BDX,-0.06086,cross-sector,Electrical Components & Equipment,Health Care Equipment
+EL,FCX,0.06083,cross-sector,Personal Care Products,Copper
+MMM,PKG,-0.06077,cross-sector,Industrial Conglomerates,Paper & Plastic Packaging Products & Materials
+PH,STLD,-0.06073,cross-sector,Industrial Machinery & Supplies & Components,Steel
+ATO,RF,-0.06071,cross-sector,Gas Utilities,Regional Banks
+COO,BEN,0.0607,cross-sector,Health Care Supplies,Asset Management & Custody Banks
+PNC,USB,0.0607,same sub-industry,Diversified Banks,Diversified Banks
+KKR,SNA,-0.06068,cross-sector,Asset Management & Custody Banks,Industrial Machinery & Supplies & Components
+COR,PGR,-0.06068,cross-sector,Health Care Distributors,Property & Casualty Insurance
+CI,ROP,-0.06068,cross-sector,Health Care Services,Electronic Equipment & Instruments
+SPGI,ZBRA,0.06059,cross-sector,Financial Exchanges & Data,Electronic Equipment & Instruments
+ALLE,KO,0.06059,cross-sector,Building Products,Soft Drinks & Non-alcoholic Beverages
+JCI,DIS,-0.06057,cross-sector,Building Products,Movies & Entertainment
+MAA,NEE,-0.06057,cross-sector,Multi-Family Residential REITs,Multi-Utilities
+FLEX,HON,-0.06057,cross-sector,Electronic Manufacturing Services,Industrial Conglomerates
+CTAS,RSG,0.06055,same sector,Diversified Support Services,Environmental & Facilities Services
+ACGL,WRB,0.06055,same sub-industry,Property & Casualty Insurance,Property & Casualty Insurance
+BXP,IBM,0.06054,cross-sector,Office REITs,IT Consulting & Other Services
+EIX,JKHY,-0.06054,cross-sector,Electric Utilities,Transaction & Payment Processing Services
+HON,LYV,0.06053,cross-sector,Industrial Conglomerates,Movies & Entertainment
+ACGL,CB,0.0605,same sub-industry,Property & Casualty Insurance,Property & Casualty Insurance
+HIG,WRB,0.06047,same sub-industry,Property & Casualty Insurance,Property & Casualty Insurance
+AVGO,MRVL,0.06047,same sub-industry,Semiconductors,Semiconductors
+BRK-B,NEM,-0.06046,cross-sector,Multi-Sector Holdings,Gold
+ABT,JNJ,0.06045,same sector,Health Care Equipment,Pharmaceuticals
+BDX,EVRG,-0.06043,cross-sector,Health Care Equipment,Electric Utilities
+FIS,JKHY,0.06043,same sub-industry,Transaction & Payment Processing Services,Transaction & Payment Processing Services
+KMI,TMUS,-0.06043,cross-sector,Oil & Gas Storage & Transportation,Wireless Telecommunication Services
+RTX,ULTA,0.06041,cross-sector,Aerospace & Defense,Other Specialty Retail
+IFF,SYY,0.06039,cross-sector,Specialty Chemicals,Food Distributors
+NKE,TROW,-0.06035,cross-sector,"Apparel, Accessories & Luxury Goods",Asset Management & Custody Banks
+EIX,IR,0.06034,cross-sector,Electric Utilities,Industrial Machinery & Supplies & Components
+CF,WSM,0.06034,cross-sector,Fertilizers & Agricultural Chemicals,Homefurnishing Retail
+ED,WEC,0.06034,same sector,Multi-Utilities,Electric Utilities
+GILD,MCD,0.06031,cross-sector,Biotechnology,Restaurants
+GIS,NKE,0.0603,cross-sector,Packaged Foods & Meats,"Apparel, Accessories & Luxury Goods"
+BA,TXT,0.06027,same sub-industry,Aerospace & Defense,Aerospace & Defense
+ESS,TROW,-0.06027,cross-sector,Multi-Family Residential REITs,Asset Management & Custody Banks
+TDY,TT,0.06026,cross-sector,Electronic Equipment & Instruments,Building Products
+TT,VMRK,-0.06023,cross-sector,Building Products,Multi-Family Residential REITs
+IVZ,LYV,-0.06023,cross-sector,Asset Management & Custody Banks,Movies & Entertainment
+T,RTX,0.06023,cross-sector,Integrated Telecommunication Services,Aerospace & Defense
+HAS,HON,-0.06023,cross-sector,Leisure Products,Industrial Conglomerates
+BAX,REGN,-0.06022,same sector,Health Care Equipment,Biotechnology
+D,SO,0.06022,same sector,Multi-Utilities,Electric Utilities
+IRM,MNST,-0.06021,cross-sector,Other Specialized REITs,Soft Drinks & Non-alcoholic Beverages
+TECH,WST,0.06018,same sector,Life Sciences Tools & Services,Health Care Supplies
+LH,TSCO,-0.06015,cross-sector,Health Care Services,Other Specialty Retail
+CHRW,TWLO,-0.06015,cross-sector,Air Freight & Logistics,Systems Software
+IVZ,TROW,0.06012,same sub-industry,Asset Management & Custody Banks,Asset Management & Custody Banks
+ED,ES,0.06008,same sector,Multi-Utilities,Electric Utilities
+HSY,HRL,0.06006,same sub-industry,Packaged Foods & Meats,Packaged Foods & Meats
+BLK,FTV,-0.06006,cross-sector,Asset Management & Custody Banks,Industrial Machinery & Supplies & Components
+ABT,TSCO,-0.06004,cross-sector,Health Care Equipment,Other Specialty Retail
+ALL,AIZ,0.06003,same sector,Property & Casualty Insurance,Multi-line Insurance
+TECH,WAB,-0.06002,cross-sector,Life Sciences Tools & Services,Construction Machinery & Heavy Transportation Equipment
+CTSH,HAS,-0.06002,cross-sector,IT Consulting & Other Services,Leisure Products
+APD,JCI,0.06002,cross-sector,Industrial Gases,Building Products
+BAC,STT,0.06002,same sector,Diversified Banks,Asset Management & Custody Banks
+ILMN,J,0.06002,cross-sector,Life Sciences Tools & Services,Construction & Engineering
+ROST,ULTA,0.06001,same sector,Apparel Retail,Other Specialty Retail
+LDOS,VTRS,-0.05997,cross-sector,Diversified Support Services,Pharmaceuticals
+DVN,PRU,-0.05996,cross-sector,Oil & Gas Exploration & Production,Life & Health Insurance
+ABBV,BG,-0.05995,cross-sector,Biotechnology,Agricultural Products & Services
+AVGO,QCOM,0.05995,same sub-industry,Semiconductors,Semiconductors
+HPE,RJF,-0.05994,cross-sector,"Technology Hardware, Storage & Peripherals",Investment Banking & Brokerage
+CHRW,PH,-0.05994,same sector,Air Freight & Logistics,Industrial Machinery & Supplies & Components
+CDW,ROP,-0.05993,same sector,Technology Distributors,Electronic Equipment & Instruments
+ATO,JPM,-0.05992,cross-sector,Gas Utilities,Diversified Banks
+BF-B,NKE,0.05991,cross-sector,Distillers & Vintners,"Apparel, Accessories & Luxury Goods"
+BR,IFF,-0.05989,cross-sector,Data Processing & Outsourced Services,Specialty Chemicals
+EW,MDT,0.05988,same sub-industry,Health Care Equipment,Health Care Equipment
+UBER,VTR,-0.05988,cross-sector,Passenger Ground Transportation,Health Care REITs
+AIZ,PRU,0.05986,same sector,Multi-line Insurance,Life & Health Insurance
+CNP,CIEN,0.05983,cross-sector,Multi-Utilities,Communications Equipment
+APH,MRK,0.05983,cross-sector,Electronic Components,Pharmaceuticals
+PLD,STE,-0.05973,cross-sector,Industrial REITs,Health Care Equipment
+ADBE,ADSK,0.05971,same sub-industry,Application Software,Application Software
+CAH,EXPE,0.05967,cross-sector,Health Care Distributors,"Hotels, Resorts & Cruise Lines"
+CAT,GIS,-0.05966,cross-sector,Construction Machinery & Heavy Transportation Equipment,Packaged Foods & Meats
+CNP,KLAC,0.05964,cross-sector,Multi-Utilities,Semiconductor Materials & Equipment
+CBOE,ICE,0.05964,same sub-industry,Financial Exchanges & Data,Financial Exchanges & Data
+CHD,CL,0.05962,same sub-industry,Household Products,Household Products
+BALL,PKG,0.05959,same sector,"Metal, Glass & Plastic Containers",Paper & Plastic Packaging Products & Materials
+APTV,ERIE,0.05959,cross-sector,Automotive Parts & Equipment,Insurance Brokers
+EXPD,ODFL,0.05959,same sector,Air Freight & Logistics,Cargo Ground Transportation
+ABBV,BMY,0.05956,same sector,Biotechnology,Pharmaceuticals
+CBOE,PLD,-0.05955,cross-sector,Financial Exchanges & Data,Industrial REITs
+PGR,TT,0.05955,cross-sector,Property & Casualty Insurance,Building Products
+HON,ITW,0.05951,same sector,Industrial Conglomerates,Industrial Machinery & Supplies & Components
+AEE,PNR,-0.0595,cross-sector,Multi-Utilities,Industrial Machinery & Supplies & Components
+LULU,WSM,0.05948,same sector,"Apparel, Accessories & Luxury Goods",Homefurnishing Retail
+ROP,V,0.05947,cross-sector,Electronic Equipment & Instruments,Transaction & Payment Processing Services
+FTV,IRM,-0.05947,cross-sector,Industrial Machinery & Supplies & Components,Other Specialized REITs
+RVTY,WAT,0.05946,same sector,Health Care Equipment,Life Sciences Tools & Services
+BIIB,TPL,-0.05945,cross-sector,Biotechnology,Oil & Gas Exploration & Production
+BSX,GILD,0.05943,same sector,Health Care Equipment,Biotechnology
+CAT,CMI,0.05943,same sub-industry,Construction Machinery & Heavy Transportation Equipment,Construction Machinery & Heavy Transportation Equipment
+UHS,WM,-0.05942,cross-sector,Health Care Facilities,Environmental & Facilities Services
+ADSK,CDNS,0.05941,same sub-industry,Application Software,Application Software
+HCA,WAB,0.05941,cross-sector,Health Care Facilities,Construction Machinery & Heavy Transportation Equipment
+AVY,PKG,0.05941,same sub-industry,Paper & Plastic Packaging Products & Materials,Paper & Plastic Packaging Products & Materials
+DDOG,RL,0.0594,cross-sector,Application Software,"Apparel, Accessories & Luxury Goods"
+AMGN,RCL,0.05939,cross-sector,Biotechnology,"Hotels, Resorts & Cruise Lines"
+GIS,TSN,0.05938,same sub-industry,Packaged Foods & Meats,Packaged Foods & Meats
+BG,EOG,-0.05938,cross-sector,Agricultural Products & Services,Oil & Gas Exploration & Production
+ADP,TMUS,0.05937,cross-sector,Human Resource & Employment Services,Wireless Telecommunication Services
+INCY,NOW,-0.05936,cross-sector,Biotechnology,Systems Software
+BKR,DOC,0.05936,cross-sector,Oil & Gas Equipment & Services,Health Care REITs
+EME,VST,0.05936,cross-sector,Construction & Engineering,Electric Utilities
+IQV,LH,0.05934,same sector,Life Sciences Tools & Services,Health Care Services
+TXT,VICI,0.05934,cross-sector,Aerospace & Defense,Hotel & Resort REITs
+COST,MRK,-0.05933,cross-sector,Consumer Staples Merchandise Retail,Pharmaceuticals
+FAST,O,0.05933,cross-sector,Trading Companies & Distributors,Retail REITs
+CRL,TMUS,0.05932,cross-sector,Life Sciences Tools & Services,Wireless Telecommunication Services
+CNC,MPC,-0.05932,cross-sector,Managed Health Care,Oil & Gas Refining & Marketing
+OKE,TPR,0.05931,cross-sector,Oil & Gas Storage & Transportation,"Apparel, Accessories & Luxury Goods"
+EIX,SLB,-0.05931,cross-sector,Electric Utilities,Oil & Gas Equipment & Services
+AWK,COP,0.05929,cross-sector,Water Utilities,Oil & Gas Exploration & Production
+IT,MOS,-0.05927,cross-sector,IT Consulting & Other Services,Fertilizers & Agricultural Chemicals
+KEYS,NVDA,-0.05927,same sector,Electronic Equipment & Instruments,Semiconductors
+XYZ,HD,-0.05926,cross-sector,Transaction & Payment Processing Services,Home Improvement Retail
+PLD,SW,-0.05926,cross-sector,Industrial REITs,Paper & Plastic Packaging Products & Materials
+CMG,SHW,-0.05925,cross-sector,Restaurants,Specialty Chemicals
+CHD,LLY,-0.05925,cross-sector,Household Products,Pharmaceuticals
+C,GLW,0.05924,cross-sector,Diversified Banks,Electronic Components
+EL,F,-0.05924,cross-sector,Personal Care Products,Automobile Manufacturers
+CNP,NVR,-0.05922,cross-sector,Multi-Utilities,Homebuilding
+DTE,BEN,-0.05921,cross-sector,Multi-Utilities,Asset Management & Custody Banks
+ERIE,PGR,0.0592,same sector,Insurance Brokers,Property & Casualty Insurance
+BA,MCD,0.05915,cross-sector,Aerospace & Defense,Restaurants
+FISV,FTNT,-0.05913,cross-sector,Transaction & Payment Processing Services,Systems Software
+DUK,IEX,-0.05911,cross-sector,Electric Utilities,Industrial Machinery & Supplies & Components
+CRH,TROW,-0.0591,cross-sector,Construction Materials,Asset Management & Custody Banks
+CF,WFC,-0.05908,cross-sector,Fertilizers & Agricultural Chemicals,Diversified Banks
+ADP,HSIC,-0.05906,cross-sector,Human Resource & Employment Services,Health Care Distributors
+MOS,TPL,-0.05906,cross-sector,Fertilizers & Agricultural Chemicals,Oil & Gas Exploration & Production
+GE,DGX,-0.05906,cross-sector,Aerospace & Defense,Health Care Services
+XYZ,DECK,-0.05903,cross-sector,Transaction & Payment Processing Services,Footwear
+COHR,DELL,-0.05902,same sector,Electronic Components,"Technology Hardware, Storage & Peripherals"
+CAT,EQT,-0.05902,cross-sector,Construction Machinery & Heavy Transportation Equipment,Oil & Gas Exploration & Production
+HPE,MNST,-0.05899,cross-sector,"Technology Hardware, Storage & Peripherals",Soft Drinks & Non-alcoholic Beverages
+ITW,PTC,0.05898,cross-sector,Industrial Machinery & Supplies & Components,Application Software
+AME,APA,0.05897,cross-sector,Electrical Components & Equipment,Oil & Gas Exploration & Production
+J,ROK,0.05894,same sector,Construction & Engineering,Electrical Components & Equipment
+DE,OKE,-0.05893,cross-sector,Agricultural & Farm Machinery,Oil & Gas Storage & Transportation
+FIS,NTAP,-0.05893,cross-sector,Transaction & Payment Processing Services,"Technology Hardware, Storage & Peripherals"
+BF-B,CINF,-0.05891,cross-sector,Distillers & Vintners,Property & Casualty Insurance
+DOW,HWM,-0.05886,cross-sector,Commodity Chemicals,Aerospace & Defense
+ALL,TXT,0.05886,cross-sector,Property & Casualty Insurance,Aerospace & Defense
+BNY,WST,-0.05883,cross-sector,Asset Management & Custody Banks,Health Care Supplies
+AEE,PNC,0.05883,cross-sector,Multi-Utilities,Diversified Banks
+AOS,VRT,-0.05882,same sector,Building Products,Electrical Components & Equipment
+GILD,VTRS,0.05882,same sector,Biotechnology,Pharmaceuticals
+CMCSA,SJM,-0.05881,cross-sector,Cable & Satellite,Packaged Foods & Meats
+PSA,WYNN,-0.0588,cross-sector,Self-Storage REITs,Casinos & Gaming
+ACGL,ERIE,0.0588,same sector,Property & Casualty Insurance,Insurance Brokers
+AMGN,KR,-0.0588,cross-sector,Biotechnology,Food Retail
+GOOG,META,0.05878,same sub-industry,Interactive Media & Services,Interactive Media & Services
+MDT,TKO,-0.05877,cross-sector,Health Care Equipment,Movies & Entertainment
