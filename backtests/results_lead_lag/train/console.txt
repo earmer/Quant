@@ -1,0 +1,40 @@
+Training years [2020, 2022, 2024]: 190 ordered pairs, 753 pooled days, 108 stocks mined
+
+Group summary (training)
+                     pairs  corr0_mean  corr1_mean  corr5_mean  ev0_mean  ev5_mean  ev0_dn_mean  ev5_dn_mean  corr0_pct_neg  corr1_pct_neg  corr0_nw_t  corr1_nw_t  ev0_nw_t
+group                                                                                                                                                                      
+competitor             92       0.526       0.008      -0.014   248.379     4.545     -256.684       88.013          0.000         33.696      14.259       0.837    16.351
+customer->supplier     49       0.228       0.025      -0.005   102.258    17.403     -104.294      101.397          6.122         22.449      14.188       2.485     6.702
+supplier->customer     49       0.228      -0.000       0.006   113.107     5.683      -91.613       21.234          6.122         51.020      14.188      -0.015     5.602
+
+Selected lead-lag pairs (|t| > 2): 15 of 190; expected by chance ~9
+   A    B              group     corr1   t_corr1  sign
+ ADI  TXN         competitor -0.115735 -3.182192  -1.0
+ VLO JBHT supplier->customer -0.109713 -3.016605  -1.0
+QCOM AVGO         competitor -0.097797 -2.688973  -1.0
+AVGO QCOM         competitor -0.083341 -2.291507  -1.0
+INTC AMAT customer->supplier -0.076974 -2.116422  -1.0
+  MU  WDC         competitor  0.073620  2.024217   1.0
+ DOW  XOM customer->supplier  0.074292  2.042690   1.0
+ LUV  XOM customer->supplier  0.076420  2.101208   1.0
+ HCA  ELV supplier->customer  0.081949  2.253235   1.0
+ AMD  TSM customer->supplier  0.082167  2.259209   1.0
+ SLB  HAL         competitor  0.082306  2.263028   1.0
+  KO  PEP         competitor  0.089310  2.455614   1.0
+ HAL  XOM supplier->customer  0.092794  2.551418   1.0
+JBHT  VLO customer->supplier  0.094310  2.593084   1.0
+  HD  LOW         competitor  0.100726  2.769500   1.0
+
+Strategies (training, in-sample for 'learned')
+                      gross_ann_%  gross_sharpe  gross_nw_t  gross_total_%  net_ann_%  net_sharpe  net_nw_t  net_total_%  avg_positions
+a_priori_hypothesis       -1.226        -0.115      -0.190         -5.244    -51.892      -4.862    -8.028       -79.31         32.876
+learned_pairs             42.042         2.228       4.121        234.376     -5.303      -0.281    -0.519       -19.15          3.495
+
+Data-mined sets (training means)
+ set
+all_pairs_corr0_mean    0.0364
+all_pairs_corr1_mean    0.0043
+most_negative_corr0    -0.2782
+most_negative_corr1    -0.1213
+most_positive_corr1     0.1301
+Name: train, dtype: float64

@@ -1,0 +1,3 @@
+,gross_ann_%,gross_sharpe,gross_nw_t,gross_total_%,net_ann_%,net_sharpe,net_nw_t,net_total_%,avg_positions
+a_priori_hypothesis,-1.226,-0.1149,-0.1896,-5.2444,-51.8916,-4.8621,-8.0282,-79.3101,32.8757
+learned_pairs,42.0423,2.228,4.1214,234.3759,-5.303,-0.2807,-0.5187,-19.1498,3.4947

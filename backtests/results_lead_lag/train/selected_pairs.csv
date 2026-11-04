@@ -1,0 +1,16 @@
+A,B,group,corr1,t_corr1,sign
+VLO,JBHT,supplier->customer,-0.10971,-3.0166,-1
+HCA,ELV,supplier->customer,0.081949,2.2532,1
+HAL,XOM,supplier->customer,0.092794,2.5514,1
+LUV,XOM,customer->supplier,0.07642,2.1012,1
+JBHT,VLO,customer->supplier,0.09431,2.5931,1
+DOW,XOM,customer->supplier,0.074292,2.0427,1
+AMD,TSM,customer->supplier,0.082167,2.2592,1
+INTC,AMAT,customer->supplier,-0.076974,-2.1164,-1
+KO,PEP,competitor,0.08931,2.4556,1
+HD,LOW,competitor,0.10073,2.7695,1
+QCOM,AVGO,competitor,-0.097797,-2.689,-1
+MU,WDC,competitor,0.07362,2.0242,1
+AVGO,QCOM,competitor,-0.083341,-2.2915,-1
+ADI,TXN,competitor,-0.11574,-3.1822,-1
+SLB,HAL,competitor,0.082306,2.263,1
