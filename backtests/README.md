@@ -162,3 +162,12 @@ The models are trained on 2020, 2022 and 2024 (frozen in commit `10b702c`) and v
 python backtests/discover.py --phase train
 python backtests/discover.py --phase validate
 ```
+
+### Delayed horizons (N+3, N+7)
+
+`discover_lags.py` re-runs the same discovery models with no pairs specified, for four targets: the residual move on day N+3 alone, on day N+7 alone, summed over N+1..N+3, and summed over N+1..N+7. Each has its own shuffled-timing null. Training (2020, 2022, 2024) was frozen in commit `a8e12bc`. Validation is 2021, 2023 and 2025, plus 2026 to date as a fresh check.
+
+```bash
+python backtests/discover_lags.py --phase train
+python backtests/discover_lags.py --phase validate
+```
