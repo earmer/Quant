@@ -1,0 +1,37 @@
+Validation years [2021, 2023, 2025]: 190 ordered pairs, 749 pooled days
+
+Group summary (validation)
+                     pairs  corr0_mean  corr1_mean  corr5_mean  ev0_mean  ev5_mean  ev0_dn_mean  ev5_dn_mean  corr0_pct_neg  corr1_pct_neg  corr0_nw_t  corr1_nw_t  ev0_nw_t
+group                                                                                                                                                                      
+competitor             92       0.520      -0.012      -0.008   202.495    -4.037     -202.181       19.192          4.348         53.261      16.928      -1.328    19.358
+customer->supplier     49       0.234      -0.001       0.002   106.727    26.328      -79.515       18.990          6.122         46.939       9.003      -0.061     7.825
+supplier->customer     49       0.234      -0.018      -0.007    99.173    -3.575     -104.480        5.306          6.122         67.347       9.003      -1.254     4.793
+
+Train -> validation rank correlation of pair estimates
+                     corr0_rank_corr  corr1_rank_corr  corr5_rank_corr  ev0_rank_corr  ev5_rank_corr  pairs
+all                           0.946            0.155            0.058          0.714          0.016  190.0
+competitor                    0.937            0.044           -0.002          0.787          0.062   92.0
+customer->supplier            0.868            0.364            0.122          0.440         -0.034   49.0
+supplier->customer            0.868            0.118            0.096          0.512         -0.012   49.0
+
+Selected lead-lag pairs keeping their training sign: 67 % of 15
+
+Strategies (validation)
+                      gross_ann_%  gross_sharpe  gross_nw_t  gross_total_%  net_ann_%  net_sharpe  net_nw_t  net_total_%  avg_positions
+a_priori_hypothesis        4.296         0.465       0.733         12.237    -46.307      -5.006    -7.950      -75.240         28.976
+learned_pairs              4.264         0.258       0.446          9.037    -40.558      -2.455    -4.208      -71.413          3.201
+learned_pairs_2021         6.004         0.319       0.336          4.327    -36.302      -1.929    -1.985      -31.688          1.921
+a_priori_2021             13.928         1.316       1.387         14.301    -38.794      -3.670    -3.867      -32.553         23.123
+learned_pairs_2023         8.784         0.605       0.527          7.970    -37.722      -2.604    -2.283      -31.952          3.048
+a_priori_2023             -4.963        -0.580      -0.506         -5.148    -57.146      -6.654    -5.853      -43.517         23.664
+learned_pairs_2025        -2.009        -0.126      -0.133         -3.201    -47.684      -2.982    -3.153      -38.504          4.644
+a_priori_2025              3.845         0.456       0.388          3.524    -43.042      -5.110    -4.366      -35.007         40.188
+
+Data-mined sets
+                        train   valid  same_sign_pct
+set                                                
+all_pairs_corr0_mean  0.0364  0.0474          100.0
+all_pairs_corr1_mean  0.0043 -0.0019            0.0
+most_negative_corr0  -0.2782 -0.2136          100.0
+most_negative_corr1  -0.1213  0.0017           46.0
+most_positive_corr1   0.1301  0.0052           58.0

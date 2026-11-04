@@ -133,3 +133,17 @@ There are three tests:
 ```bash
 python backtests/fred_lab.py             # ~30 s after spec_lab.py has cached prices → results_fred/
 ```
+
+## Upstream / competitor lead-lag test
+
+`lead_lag.py` tests the idea that when an upstream stock rises, its customers or competitors dip.
+
+- **Pairs:** 190 ordered pairs fixed in advance from industry structure (supplier → customer, customer → supplier, competitors in both directions), plus every ordered pair among the same 108 stocks for a data-mining check.
+- **Moves:** returns are adjusted for the market (SPY beta); sector ETFs are deliberately not removed.
+- **Training:** 2020, 2022 and 2024, frozen in commit `50658a3`.
+- **Validation:** 2021, 2023 and 2025, run once afterwards, using betas and volatilities from the year before.
+
+```bash
+python backtests/lead_lag.py --phase train
+python backtests/lead_lag.py --phase validate
+```

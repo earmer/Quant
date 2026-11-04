@@ -1,0 +1,6 @@
+set,train,valid,same_sign_pct
+all_pairs_corr0_mean,0.0364,0.0474,100.0
+all_pairs_corr1_mean,0.0043,-0.0019,0.0
+most_negative_corr0,-0.2782,-0.2136,100.0
+most_negative_corr1,-0.1213,0.0017,46.0
+most_positive_corr1,0.1301,0.0052,58.0
